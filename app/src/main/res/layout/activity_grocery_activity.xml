@@ -31,7 +31,7 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/chillipowdername"
+                    android:text= "chilli Powder"
                     android:textSize="30sp" />
 
                 <TextView
@@ -43,7 +43,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/vegqty"
+                android:id="@+id/chilli_powder_quantity"
                 android:layout_width="50sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -53,7 +53,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/vegbuy"
+                android:id="@+id/chilli_powder_buy"
                 android:layout_width="62dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -81,7 +81,7 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/oriddalname"
+                    android:text="Orid dhal"
                     android:textSize="30sp" />
 
                 <TextView
@@ -93,7 +93,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/vegqty"
+                android:id="@+id/orid_dhal_quantity"
                 android:layout_width="50sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -103,7 +103,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/vegbuy"
+                android:id="@+id/orid_dhal_buy"
                 android:layout_width="62dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -143,7 +143,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/vegqty"
+                android:id="@+id/peanut_quantity"
                 android:layout_width="50sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -153,7 +153,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/vegbuy"
+                android:id="@+id/peanut_buy"
                 android:layout_width="62dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -193,7 +193,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/vegqty"
+                android:id="@+id/pepper_quantity"
                 android:layout_width="50sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -203,7 +203,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/vegbuy"
+                android:id="@+id/pepper_buy"
                 android:layout_width="62dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -243,7 +243,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/vegqty"
+                android:id="@+id/rice_quantity"
                 android:layout_width="50sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -253,7 +253,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/vegbuy"
+                android:id="@+id/rice_buy"
                 android:layout_width="62dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -293,7 +293,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/vegqty"
+                android:id="@+id/salt_quantity"
                 android:layout_width="50sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -303,7 +303,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/vegbuy"
+                android:id="@+id/salt_buy"
                 android:layout_width="62dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -343,7 +343,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/vegqty"
+                android:id="@+id/sunflower_oil_quantity"
                 android:layout_width="50sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -353,7 +353,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/vegbuy"
+                android:id="@+id/sunflower_oil_buy"
                 android:layout_width="62dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -381,7 +381,7 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/toordalname"
+                    android:text="Toor dhal"
                     android:textSize="30sp" />
 
                 <TextView
@@ -393,7 +393,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/vegqty"
+                android:id="@+id/toor_dhal_quantity"
                 android:layout_width="50sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -403,7 +403,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/vegbuy"
+                android:id="@+id/toor_dhal_buy"
                 android:layout_width="62dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -443,7 +443,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/vegqty"
+                android:id="@+id/turmeric_quantity"
                 android:layout_width="50sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -453,7 +453,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/vegbuy"
+                android:id="@+id/turmeric_buy"
                 android:layout_width="62dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -493,7 +493,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/vegqty"
+                android:id="@+id/wheat_quantity"
                 android:layout_width="50sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -503,13 +503,17 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/vegbuy"
+                android:id="@+id/wheat_buy"
                 android:layout_width="62dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="@string/buy" />
         </LinearLayout>
-
+        <Button
+            android:id="@+id/returnbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="save and return" />
     </LinearLayout>
 
 </android.widget.ScrollView>

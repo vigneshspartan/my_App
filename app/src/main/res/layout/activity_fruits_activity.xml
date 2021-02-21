@@ -44,7 +44,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/vegqty"
+                android:id="@+id/apple_quantity"
                 android:layout_width="50sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -54,7 +54,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/vegbuy"
+                android:id="@+id/apple_buy"
                 android:layout_width="57dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -95,7 +95,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/vegqty"
+                android:id="@+id/banana_quantity"
                 android:layout_width="50sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -105,7 +105,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/vegbuy"
+                android:id="@+id/banana_buy"
                 android:layout_width="57dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -146,7 +146,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/vegqty"
+                android:id="@+id/guava_quantity"
                 android:layout_width="50sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -156,7 +156,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/vegbuy"
+                android:id="@+id/guava_buy"
                 android:layout_width="57dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -197,7 +197,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/vegqty"
+                android:id="@+id/grapes_quantity"
                 android:layout_width="50sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -207,7 +207,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/vegbuy"
+                android:id="@+id/grapes_buy"
                 android:layout_width="57dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -248,7 +248,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/vegqty"
+                android:id="@+id/mango_quantity"
                 android:layout_width="50sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -258,7 +258,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/vegbuy"
+                android:id="@+id/mango_buy"
                 android:layout_width="57dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -299,7 +299,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/vegqty"
+                android:id="@+id/orange_quantity"
                 android:layout_width="50sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -309,7 +309,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/vegbuy"
+                android:id="@+id/orange_buy"
                 android:layout_width="57dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -350,7 +350,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/vegqty"
+                android:id="@+id/papaya_quantity"
                 android:layout_width="50sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -360,7 +360,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/vegbuy"
+                android:id="@+id/papaya_buy"
                 android:layout_width="57dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -401,7 +401,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/vegqty"
+                android:id="@+id/pineapple_quantity"
                 android:layout_width="50sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -411,7 +411,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/vegbuy"
+                android:id="@+id/pineapple_buy"
                 android:layout_width="57dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -452,7 +452,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/vegqty"
+                android:id="@+id/pomegranate_quantity"
                 android:layout_width="50sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -462,7 +462,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/vegbuy"
+                android:id="@+id/pomegranate_buy"
                 android:layout_width="57dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -503,7 +503,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/vegqty"
+                android:id="@+id/watermelon_quantity"
                 android:layout_width="50sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -513,13 +513,18 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/vegbuy"
+                android:id="@+id/watermelon_buy"
                 android:layout_width="57dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="@string/buy" />
 
         </LinearLayout>
+        <Button
+            android:id="@+id/returnbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="save and return" />
 
     </LinearLayout>
 </android.widget.ScrollView>

@@ -43,7 +43,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/vegqty"
+                android:id="@+id/dairy_milk_quantity"
                 android:layout_width="50sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -53,7 +53,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/vegbuy"
+                android:id="@+id/dairy_milk_buy"
                 android:layout_width="57dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -93,7 +93,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/vegqty"
+                android:id="@+id/dark_chocolate_quantity"
                 android:layout_width="50sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -103,7 +103,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/vegbuy"
+                android:id="@+id/dark_chocolate_buy"
                 android:layout_width="57dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -143,7 +143,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/vegqty"
+                android:id="@+id/dark_fantasy_quantity"
                 android:layout_width="50sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -153,7 +153,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/vegbuy"
+                android:id="@+id/dark_fantasy_buy"
                 android:layout_width="57dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -193,7 +193,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/vegqty"
+                android:id="@+id/five_star_quantity"
                 android:layout_width="50sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -203,7 +203,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/vegbuy"
+                android:id="@+id/five_star_buy"
                 android:layout_width="57dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -243,7 +243,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/vegqty"
+                android:id="@+id/kitkat_quantity"
                 android:layout_width="50sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -253,7 +253,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/vegbuy"
+                android:id="@+id/kitkat_buy"
                 android:layout_width="57dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -282,7 +282,7 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/lottochocopiename"
+                    android:text="lotte choco pie"
                     android:textSize="30sp" />
 
                 <TextView
@@ -294,7 +294,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/vegqty"
+                android:id="@+id/lotte_choco_pie_quantity"
                 android:layout_width="50sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -304,7 +304,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/vegbuy"
+                android:id="@+id/lotte_choco_pie_buy"
                 android:layout_width="57dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -344,7 +344,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/vegqty"
+                android:id="@+id/milky_bar_quantity"
                 android:layout_width="50sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -354,7 +354,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/vegbuy"
+                android:id="@+id/milky_bar_buy"
                 android:layout_width="57dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -394,7 +394,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/vegqty"
+                android:id="@+id/munch_quantity"
                 android:layout_width="50sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -404,7 +404,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/vegbuy"
+                android:id="@+id/munch_buy"
                 android:layout_width="57dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -444,7 +444,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/vegqty"
+                android:id="@+id/perk_quantity"
                 android:layout_width="50sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -454,7 +454,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/vegbuy"
+                android:id="@+id/perk_buy"
                 android:layout_width="57dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -482,7 +482,7 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="snicker"
+                    android:text="snickers"
                     android:textSize="30sp" />
 
                 <TextView
@@ -494,7 +494,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/vegqty"
+                android:id="@+id/snickers_quantity"
                 android:layout_width="50sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -504,12 +504,17 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/vegbuy"
+                android:id="@+id/snickers_buy"
                 android:layout_width="57dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="@string/buy" />
         </LinearLayout>
+        <Button
+            android:id="@+id/returnbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="save and return" />
     </LinearLayout>
 
 </android.widget.ScrollView>
