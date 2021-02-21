@@ -16,7 +16,58 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/brinjal"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fruits_apple" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/applename"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="61dp"
+                    android:text="@string/applekg"
+                    android:textSize="26sp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/vegqty"
+                android:layout_width="50sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="QTY"
+                android:inputType="number"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/vegbuy"
+                android:layout_width="57dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/buy" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -32,7 +83,7 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/bananastr"
+                    android:text="@string/banananame"
                     android:textSize="30sp" />
 
                 <TextView
@@ -67,11 +118,11 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/sampban01" />
+                app:srcCompat="@drawable/fruits_guava" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -83,14 +134,14 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/bananastr"
+                    android:text="@string/guavaname"
                     android:textSize="30sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="61dp"
-                    android:text="@string/bananakg"
+                    android:text="@string/guavakg"
                     android:textSize="26sp" />
             </LinearLayout>
 
@@ -118,11 +169,11 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/sampban01" />
+                app:srcCompat="@drawable/fruits_grapes" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -134,14 +185,14 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/bananastr"
+                    android:text="@string/grapesname"
                     android:textSize="30sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="61dp"
-                    android:text="@string/bananakg"
+                    android:text="@string/grapeskg"
                     android:textSize="26sp" />
             </LinearLayout>
 
@@ -169,11 +220,11 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/sampban01" />
+                app:srcCompat="@drawable/fruits_mango" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -185,14 +236,14 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/bananastr"
+                    android:text="@string/mangoname"
                     android:textSize="30sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="61dp"
-                    android:text="@string/bananakg"
+                    android:text="@string/mangokg"
                     android:textSize="26sp" />
             </LinearLayout>
 
@@ -220,11 +271,11 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/sampban01" />
+                app:srcCompat="@drawable/fruits_orange" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -236,14 +287,14 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/bananastr"
+                    android:text="@string/orangename"
                     android:textSize="30sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="61dp"
-                    android:text="@string/bananakg"
+                    android:text="@string/orangekg"
                     android:textSize="26sp" />
             </LinearLayout>
 
@@ -271,11 +322,11 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/sampban01" />
+                app:srcCompat="@drawable/fruits_papaya" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -287,14 +338,14 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/bananastr"
+                    android:text="@string/papayaname"
                     android:textSize="30sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="61dp"
-                    android:text="@string/bananakg"
+                    android:text="@string/papayakg"
                     android:textSize="26sp" />
             </LinearLayout>
 
@@ -322,11 +373,11 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/sampban01" />
+                app:srcCompat="@drawable/fruits_pineapple" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -338,14 +389,14 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/bananastr"
+                    android:text="@string/pineapplename"
                     android:textSize="30sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="61dp"
-                    android:text="@string/bananakg"
+                    android:text="@string/pineapplekg"
                     android:textSize="26sp" />
             </LinearLayout>
 
@@ -373,7 +424,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -389,14 +440,14 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/bananastr"
+                    android:text="@string/Pomegranatename"
                     android:textSize="30sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="61dp"
-                    android:text="@string/bananakg"
+                    android:text="@string/pomegranatekg"
                     android:textSize="26sp" />
             </LinearLayout>
 
@@ -424,11 +475,11 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/sampban01" />
+                app:srcCompat="@drawable/fruits_watermelon" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -440,65 +491,14 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/bananastr"
+                    android:text="@string/watermelonname"
                     android:textSize="30sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="61dp"
-                    android:text="@string/bananakg"
-                    android:textSize="26sp" />
-            </LinearLayout>
-
-            <EditText
-                android:id="@+id/vegqty"
-                android:layout_width="50sp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:ems="10"
-                android:hint="QTY"
-                android:inputType="number"
-                android:textSize="25sp" />
-
-            <Button
-                android:id="@+id/vegbuy"
-                android:layout_width="57dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="@string/buy" />
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/sampban01" />
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/textView10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/bananastr"
-                    android:textSize="30sp" />
-
-                <TextView
-                    android:id="@+id/textView11"
-                    android:layout_width="match_parent"
-                    android:layout_height="61dp"
-                    android:text="@string/bananakg"
+                    android:text="@string/watermelonkg"
                     android:textSize="26sp" />
             </LinearLayout>
 

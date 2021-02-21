@@ -3,74 +3,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".vegetables_activity">
+    android:layout_height="match_parent">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_weight="1"
-        app:srcCompat="@drawable/sampban01" />
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/textView10"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/bananastr"
-            android:textSize="30sp" />
-
-        <TextView
-            android:id="@+id/textView11"
-            android:layout_width="match_parent"
-            android:layout_height="61dp"
-            android:text="@string/bananakg"
-            android:textSize="26sp" />
-    </LinearLayout>
-
-    <EditText
-        android:id="@+id/vegqty1"
-        android:layout_width="50sp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:ems="10"
-        android:hint="QTY"
-        android:inputType="number"
-        android:textSize="25sp" />
-
-    <Button
-        android:id="@+id/vegbuy1"
-        android:layout_width="57dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="@string/buy" />
-
-    </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/sampban01" />
+                app:srcCompat="@drawable/vegetables_beetroot" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -82,14 +32,482 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/bananastr"
+                    android:text="@string/beetrootname"
                     android:textSize="30sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="61dp"
-                    android:text="@string/bananakg"
+                    android:text="@string/beetrootkg"
+                    android:textSize="26sp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/vegqty1"
+                android:layout_width="50sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="QTY"
+                android:inputType="number"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/vegbuy1"
+                android:layout_width="57dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/buy" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/brinjal"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/vegetables_bitterguard" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bitterguardname"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="61dp"
+                    android:text="@string/bitterguardkg"
+                    android:textSize="26sp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/vegqty1"
+                android:layout_width="50sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="QTY"
+                android:inputType="number"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/vegbuy1"
+                android:layout_width="57dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/buy" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/brinjal"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/vegetables_brinjal" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="brinjal"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="61dp"
+                    android:text="@string/brinjalkg"
+                    android:textSize="26sp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/vegqty1"
+                android:layout_width="50sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="QTY"
+                android:inputType="number"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/vegbuy1"
+                android:layout_width="57dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/buy" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/brinjal"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/vegetables_cabbage" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cabbagename"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="61dp"
+                    android:text="@string/cabbagekg"
+                    android:textSize="26sp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/vegqty1"
+                android:layout_width="50sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="QTY"
+                android:inputType="number"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/vegbuy1"
+                android:layout_width="57dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/buy" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/brinjal"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/vegetables_carrot" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/carrotname"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="61dp"
+                    android:text="@string/carrotkg"
+                    android:textSize="26sp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/vegqty1"
+                android:layout_width="50sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="QTY"
+                android:inputType="number"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/vegbuy1"
+                android:layout_width="57dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/buy" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/brinjal"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/vegetables_ladiesfinger" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ladiesfingername"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="61dp"
+                    android:text="@string/ladiesfingerkg"
+                    android:textSize="26sp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/vegqty1"
+                android:layout_width="50sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="QTY"
+                android:inputType="number"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/vegbuy1"
+                android:layout_width="57dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/buy" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/brinjal"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/vegetables_onion" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/onionname"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="61dp"
+                    android:text="@string/onionkg"
+                    android:textSize="26sp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/vegqty1"
+                android:layout_width="50sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="QTY"
+                android:inputType="number"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/vegbuy1"
+                android:layout_width="57dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/buy" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/brinjal"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/vegetables_potato" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/potatoname"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="61dp"
+                    android:text="@string/potatokg"
+                    android:textSize="26sp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/vegqty1"
+                android:layout_width="50sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="QTY"
+                android:inputType="number"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/vegbuy1"
+                android:layout_width="57dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/buy" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/brinjal"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/vegetables_raddish" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/raddishname"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="61dp"
+                    android:text="@string/raddishkg"
+                    android:textSize="26sp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/vegqty1"
+                android:layout_width="50sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="QTY"
+                android:inputType="number"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/vegbuy1"
+                android:layout_width="57dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/buy" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/brinjal"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/vegetables_tomato" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tomatoname"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="61dp"
+                    android:text="@string/tomatokg"
                     android:textSize="26sp" />
             </LinearLayout>
 

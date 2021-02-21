@@ -15,11 +15,11 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/utensamp" />
+                app:srcCompat="@drawable/utensils_cooker" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -31,7 +31,257 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/pansamp"
+                    android:text="cooker"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="61dp"
+                    android:text="@string/cookerkg"
+                    android:textSize="26sp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/vegqty"
+                android:layout_width="50sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="QTY"
+                android:inputType="number"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/vegbuy"
+                android:layout_width="57dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/buy" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/brinjal"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/utensils_hotbox" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hotboxname"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="61dp"
+                    android:text="@string/hotboxkg"
+                    android:textSize="26sp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/vegqty"
+                android:layout_width="50sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="QTY"
+                android:inputType="number"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/vegbuy"
+                android:layout_width="57dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/buy" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/brinjal"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/utensils_kettle" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kettlename"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="61dp"
+                    android:text="@string/kettlekg"
+                    android:textSize="26sp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/vegqty"
+                android:layout_width="50sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="QTY"
+                android:inputType="number"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/vegbuy"
+                android:layout_width="57dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/buy" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/brinjal"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/utensils_knife" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/knifename"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="61dp"
+                    android:text="@string/knifekg"
+                    android:textSize="26sp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/vegqty"
+                android:layout_width="50sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="QTY"
+                android:inputType="number"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/vegbuy"
+                android:layout_width="57dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/buy" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/brinjal"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/utensils_mixergrinder" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mixergrindername"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="61dp"
+                    android:text="@string/mixergrinderkg"
+                    android:textSize="26sp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/vegqty"
+                android:layout_width="50sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="QTY"
+                android:inputType="number"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/vegbuy"
+                android:layout_width="57dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/buy" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/brinjal"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/utensils_pan" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/panname"
                     android:textSize="30sp" />
 
                 <TextView
@@ -65,11 +315,11 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/utensamp" />
+                app:srcCompat="@drawable/utensils_ricecooker" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -81,14 +331,14 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/pansamp"
+                    android:text="@string/ricecookername"
                     android:textSize="30sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="61dp"
-                    android:text="@string/pankg"
+                    android:text="@string/ricecookerkg"
                     android:textSize="26sp" />
             </LinearLayout>
 
@@ -115,11 +365,11 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/utensamp" />
+                app:srcCompat="@drawable/utensils_slicer" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -131,14 +381,14 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/pansamp"
+                    android:text="@string/slicername"
                     android:textSize="30sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="61dp"
-                    android:text="@string/pankg"
+                    android:text="@string/slicerkg"
                     android:textSize="26sp" />
             </LinearLayout>
 
@@ -165,11 +415,11 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/utensamp" />
+                app:srcCompat="@drawable/utensils_tawa" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -181,14 +431,14 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/pansamp"
+                    android:text="@string/tawaname"
                     android:textSize="30sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="61dp"
-                    android:text="@string/pankg"
+                    android:text="@string/tawakg"
                     android:textSize="26sp" />
             </LinearLayout>
 
@@ -215,11 +465,11 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/utensamp" />
+                app:srcCompat="@drawable/utensils_inductionstove" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -231,264 +481,14 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/pansamp"
+                    android:text="@string/inductionstovename"
                     android:textSize="30sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="61dp"
-                    android:text="@string/pankg"
-                    android:textSize="26sp" />
-            </LinearLayout>
-
-            <EditText
-                android:id="@+id/vegqty"
-                android:layout_width="50sp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:ems="10"
-                android:hint="QTY"
-                android:inputType="number"
-                android:textSize="25sp" />
-
-            <Button
-                android:id="@+id/vegbuy"
-                android:layout_width="57dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="@string/buy" />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/utensamp" />
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/textView10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/pansamp"
-                    android:textSize="30sp" />
-
-                <TextView
-                    android:id="@+id/textView11"
-                    android:layout_width="match_parent"
-                    android:layout_height="61dp"
-                    android:text="@string/pankg"
-                    android:textSize="26sp" />
-            </LinearLayout>
-
-            <EditText
-                android:id="@+id/vegqty"
-                android:layout_width="50sp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:ems="10"
-                android:hint="QTY"
-                android:inputType="number"
-                android:textSize="25sp" />
-
-            <Button
-                android:id="@+id/vegbuy"
-                android:layout_width="57dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="@string/buy" />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/utensamp" />
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/textView10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/pansamp"
-                    android:textSize="30sp" />
-
-                <TextView
-                    android:id="@+id/textView11"
-                    android:layout_width="match_parent"
-                    android:layout_height="61dp"
-                    android:text="@string/pankg"
-                    android:textSize="26sp" />
-            </LinearLayout>
-
-            <EditText
-                android:id="@+id/vegqty"
-                android:layout_width="50sp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:ems="10"
-                android:hint="QTY"
-                android:inputType="number"
-                android:textSize="25sp" />
-
-            <Button
-                android:id="@+id/vegbuy"
-                android:layout_width="57dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="@string/buy" />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/utensamp" />
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/textView10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/pansamp"
-                    android:textSize="30sp" />
-
-                <TextView
-                    android:id="@+id/textView11"
-                    android:layout_width="match_parent"
-                    android:layout_height="61dp"
-                    android:text="@string/pankg"
-                    android:textSize="26sp" />
-            </LinearLayout>
-
-            <EditText
-                android:id="@+id/vegqty"
-                android:layout_width="50sp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:ems="10"
-                android:hint="QTY"
-                android:inputType="number"
-                android:textSize="25sp" />
-
-            <Button
-                android:id="@+id/vegbuy"
-                android:layout_width="57dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="@string/buy" />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/utensamp" />
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/textView10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/pansamp"
-                    android:textSize="30sp" />
-
-                <TextView
-                    android:id="@+id/textView11"
-                    android:layout_width="match_parent"
-                    android:layout_height="61dp"
-                    android:text="@string/pankg"
-                    android:textSize="26sp" />
-            </LinearLayout>
-
-            <EditText
-                android:id="@+id/vegqty"
-                android:layout_width="50sp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:ems="10"
-                android:hint="QTY"
-                android:inputType="number"
-                android:textSize="25sp" />
-
-            <Button
-                android:id="@+id/vegbuy"
-                android:layout_width="57dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="@string/buy" />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/utensamp" />
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/textView10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/pansamp"
-                    android:textSize="30sp" />
-
-                <TextView
-                    android:id="@+id/textView11"
-                    android:layout_width="match_parent"
-                    android:layout_height="61dp"
-                    android:text="@string/pankg"
+                    android:text="@string/inductionkg"
                     android:textSize="26sp" />
             </LinearLayout>
 

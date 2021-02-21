@@ -15,11 +15,11 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/grocerysamp" />
+                app:srcCompat="@drawable/grocery_chillipowder" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -31,14 +31,14 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/attastr"
+                    android:text="@string/chillipowdername"
                     android:textSize="30sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="61dp"
-                    android:text="@string/attakg"
+                    android:text="@string/chillipowderkg"
                     android:textSize="26sp" />
             </LinearLayout>
 
@@ -65,11 +65,11 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/grocerysamp" />
+                app:srcCompat="@drawable/grocery_oriddal" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -81,14 +81,14 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/attastr"
+                    android:text="@string/oriddalname"
                     android:textSize="30sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="61dp"
-                    android:text="@string/attakg"
+                    android:text="@string/oriddalkg"
                     android:textSize="26sp" />
             </LinearLayout>
 
@@ -115,11 +115,11 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/grocerysamp" />
+                app:srcCompat="@drawable/grocery_peanut" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -131,14 +131,14 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/attastr"
+                    android:text="@string/peanutname"
                     android:textSize="30sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="61dp"
-                    android:text="@string/attakg"
+                    android:text="@string/peanutkg"
                     android:textSize="26sp" />
             </LinearLayout>
 
@@ -165,11 +165,11 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/grocerysamp" />
+                app:srcCompat="@drawable/grocery_pepper" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -181,14 +181,14 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/attastr"
+                    android:text="@string/peppername"
                     android:textSize="30sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="61dp"
-                    android:text="@string/attakg"
+                    android:text="@string/pepperkg"
                     android:textSize="26sp" />
             </LinearLayout>
 
@@ -215,11 +215,11 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/grocerysamp" />
+                app:srcCompat="@drawable/grocery_rice" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -231,14 +231,14 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/attastr"
+                    android:text="@string/ricename"
                     android:textSize="30sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="61dp"
-                    android:text="@string/attakg"
+                    android:text="@string/ricekg"
                     android:textSize="26sp" />
             </LinearLayout>
 
@@ -265,11 +265,11 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/grocerysamp" />
+                app:srcCompat="@drawable/grocery_salt" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -281,14 +281,14 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/attastr"
+                    android:text="@string/saltname"
                     android:textSize="30sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="61dp"
-                    android:text="@string/attakg"
+                    android:text="@string/saltkg"
                     android:textSize="26sp" />
             </LinearLayout>
 
@@ -315,11 +315,11 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/grocerysamp" />
+                app:srcCompat="@drawable/grocery_sunfloweroil" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -331,14 +331,14 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/attastr"
+                    android:text="@string/sunfloweroilname"
                     android:textSize="30sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="61dp"
-                    android:text="@string/attakg"
+                    android:text="@string/sunfloweroilkg"
                     android:textSize="26sp" />
             </LinearLayout>
 
@@ -365,11 +365,11 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/grocerysamp" />
+                app:srcCompat="@drawable/grocery_toordal" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -381,14 +381,14 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/attastr"
+                    android:text="@string/toordalname"
                     android:textSize="30sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="61dp"
-                    android:text="@string/attakg"
+                    android:text="@string/toordalkg"
                     android:textSize="26sp" />
             </LinearLayout>
 
@@ -415,11 +415,11 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/grocerysamp" />
+                app:srcCompat="@drawable/grocery_turmeric" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -431,14 +431,14 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/attastr"
+                    android:text="@string/turmericname"
                     android:textSize="30sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="61dp"
-                    android:text="@string/attakg"
+                    android:text="@string/turmerickg"
                     android:textSize="26sp" />
             </LinearLayout>
 
@@ -465,11 +465,11 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/grocerysamp" />
+                app:srcCompat="@drawable/grocery_wheat" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -481,14 +481,14 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/attastr"
+                    android:text="@string/wheatname"
                     android:textSize="30sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="61dp"
-                    android:text="@string/attakg"
+                    android:text="@string/wheatkg"
                     android:textSize="26sp" />
             </LinearLayout>
 

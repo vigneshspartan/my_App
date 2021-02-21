@@ -9,16 +9,189 @@
     <string name="shopby">Shop By Category</string>
     <string name="buy">BUY</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="bananastr">Banana</string>
-    <string name="bananakg">Rs.50/kg</string>
-    <string name="diarymilkstr">DairyMilk</string>
-    <string name="diarymilkkg">Rs.70</string>
-    <string name="attastr">Ashirvaad Atta</string>
-    <string name="attakg">RS.120/kg</string>
-    <string name="pansamp">Non-Stick Pan</string>
-    <string name="pankg">Rs.450</string>
+
 
     <!-- Strings used for fragments for navigation -->
+
+    <!-- fruits-->
+
+    <string name="applename">Apple</string>
+    <string name="applekg">Rs.120/kg</string>
+    <string name="banananame">Banana</string>
+    <string name="bananakg">Rs.50/kg</string>
+    <string name="guavaname">Guava</string>
+    <string name="guavakg">Rs.40/kg</string>
+    <string name="grapesname">Grapes</string>
+    <string name="grapeskg">Rs.70/kg</string>
+    <string name="mangoname">Mango</string>
+    <string name="mangokg">Rs.80/kg</string>
+    <string name="orangename">Orange</string>
+    <string name="orangekg">Rs.60/kg</string>
+    <string name="papayaname">Papaya</string>
+    <string name="papayakg">Rs.40/kg</string>
+    <string name="pineapplename">Pineapple</string>
+    <string name="pineapplekg">Rs.30/kg</string>
+    <string name="Pomegranatename">Pomegranate</string>
+    <string name="pomegranatekg">Rs.80/kg</string>
+    <string name="watermelonname">Watermelon</string>
+    <string name="watermelonkg">Rs.45/kg</string>
+
+
+
+
+
+    <!-- vegetables-->
+
+    <string name="bitterguardname">Bitterguard</string>
+    <string name="bitterguardkg">Rs.35/kg</string>
+    <string name="beetrootname">Beetroot</string>
+    <string name="beetrootkg">Rs.30/kg</string>
+    <string name="brinjalname">Brinjal</string>
+    <string name="brinjalkg">Rs.30/kg</string>
+    <string name="cabbagename">Cabbage</string>
+    <string name="cabbagekg">Rs.20/kg</string>
+    <string name="carrotname">Carrot</string>
+    <string name="carrotkg">Rs.25/kg</string>
+    <string name="ladiesfingername">Ladiesfinger</string>
+    <string name="ladiesfingerkg">Rs.30/kg</string>
+    <string name="onionname">Onion</string>
+    <string name="onionkg">Rs.35/kg</string>
+    <string name="potatoname">Potato</string>
+    <string name="potatokg">Rs.25/kg</string>
+    <string name="raddishname">Raddish</string>
+    <string name="raddishkg">Rs.15/kg</string>
+    <string name="tomatoname">Tomato</string>
+    <string name="tomatokg">Rs.25/kg</string>
+
+
+
+    <!-- grocery-->
+
+    <string name="chillipowdername">Chillipowder</string>
+    <string name="chillipowderkg">Rs.75/kg</string>
+    <string name="oriddalname">Oriddal</string>
+    <string name="oriddalkg">Rs.130/kg</string>
+    <string name="peanutname">Peanut</string>
+    <string name="peanutkg">Rs.110/kg</string>
+    <string name="peppername">Pepper</string>
+    <string name="pepperkg">Rs.220/kg</string>
+    <string name="ricename">Rice</string>
+    <string name="ricekg">Rs.47/kg</string>
+    <string name="saltname">Salt</string>
+    <string name="saltkg">Rs.13/kg</string>
+    <string name="sunfloweroilname">Sunfloweroil</string>
+    <string name="sunfloweroilkg">Rs.130/l</string>
+    <string name="toordalname">Toordal</string>
+    <string name="toordalkg">Rs.160/kg</string>
+    <string name="turmericname">Turmeric</string>
+    <string name="turmerickg">Rs.90/kg</string>
+    <string name="wheatname">Wheat</string>
+    <string name="wheatkg">Rs.56/kg</string>
+
+
+
+    <!-- utensils-->
+
+    <string name="cookername">Cooker</string>
+    <string name="cookerkg">Rs.950/l</string>
+    <string name="hotboxname">Hotbox</string>
+    <string name="hotboxkg">Rs.600</string>
+    <string name="inductionstovename">Inductionstove</string>
+    <string name="inductionkg">Rs.3499</string>
+    <string name="kettlename">Kettle</string>
+    <string name="kettlekg">Rs.650/l</string>
+    <string name="knifename">Knife</string>
+    <string name="knifekg">Rs.25</string>
+    <string name="mixergrindername">Mixergrinder</string>
+    <string name="mixergrinderkg">Rs.4750</string>
+    <string name="panname">Pan</string>
+    <string name="pankg">Rs.1600</string>
+    <string name="ricecookername">Ricecooker</string>
+    <string name="ricecookerkg">Rs.1450</string>
+    <string name="slicername">Slicer</string>
+    <string name="slicerkg">Rs.300</string>
+    <string name="tawaname">Tawa</string>
+    <string name="tawakg">Rs.450</string>
+
+
+
+
+    <!-- dairy-->
+
+    <string name="buttername">Butter</string>
+    <string name="butterkg">Rs.180/kg</string>
+    <string name="cheesename">Cheese</string>
+    <string name="cheesekg">Rs.270/kg</string>
+    <string name="condensedmilkname">Condensedmilk</string>
+    <string name="condensedmilkkg">Rs.75/l</string>
+    <string name="creamname">Cream</string>
+    <string name="creamkg">Rs.86/l</string>
+    <string name="curdname">Curd</string>
+    <string name="curdkg">Rs.92/kg</string>
+    <string name="gheename">Ghee</string>
+    <string name="gheekg">Rs.250/l</string>
+    <string name="icecreamname">Icecream</string>
+    <string name="icecreamkg">Rs.290/kg</string>
+    <string name="milkname">Milk</string>
+    <string name="milkkg">Rs.53/l</string>
+    <string name="milkpowdername">Milkpowder</string>
+    <string name="milkpowderkg">Rs.165/kg</string>
+    <string name="paneername">Paneer</string>
+    <string name="paneerkg">Rs.320/kg</string>
+
+
+
+
+    <!-- chocolate-->
+
+    <string name="dairymilkname">Dairymilk</string>
+    <string name="dairymilkkg">Rs.35</string>
+    <string name="darkchocolatename">Darkchocolate</string>
+    <string name="darkchocolatekg">Rs.70</string>
+    <string name="darkfantasyname">Darkfantasy</string>
+    <string name="darkfantasykg">Rs.40</string>
+    <string name="fivestarname">Fivestar</string>
+    <string name="fivestarkg">Rs.20</string>
+    <string name="kitkatname">Kitkat</string>
+    <string name="kitkatkg">Rs.25</string>
+    <string name="lottochocopiename">Lottochocopie</string>
+    <string name="lottochocopiekg">Rs.10</string>
+    <string name="milkybarname">Milkybar</string>
+    <string name="milkybarkg">Rs.25</string>
+    <string name="munchname">Munch</string>
+    <string name="munchkg">Rs.20</string>
+    <string name="perkname">Perk</string>
+    <string name="perkkg">Rs.30</string>
+    <string name="snickersname">Snickers</string>
+    <string name="snickerskg">Rs.20</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </resources>
