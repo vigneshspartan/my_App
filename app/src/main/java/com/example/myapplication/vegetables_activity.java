@@ -2,6 +2,8 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -16,6 +18,7 @@ public class vegetables_activity extends AppCompatActivity {
     EditText beetroot_quantity_button,bitterguard_quantity_button,brinjal_quantity_button,cabbage_quantity_button,carrot_quantity_button,ladiesfinger_quantity_button,onion_quantity_button,potato_quantity_button,raddish_quantity_button,tomato_quantity_button;
     int beetroot_quantity_value,bitterguard_quantity_value,brinjal_quantity_value,cabbage_quantity_value,carrot_quantity_value,ladiesfinger_quantity_value,onion_quantity_value,potato_quantity_value,raddish_quantity_value,tomato_quantity_value;
     String beetroot,bitterguard,brinjal,cabbage,carrot,ladiesfinger,onion,potato,raddish,tomato;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -155,8 +158,6 @@ public class vegetables_activity extends AppCompatActivity {
             }
         });
 
-        Log.d("logmsg",list);
-        Log.d("listlen",String.valueOf(list.length()));
         /*
         */
         save.setOnClickListener(new View.OnClickListener() {
@@ -165,11 +166,15 @@ public class vegetables_activity extends AppCompatActivity {
                 int len=list.length();
                 list = list.substring(0,len-1);
                 Log.d("logmsg1",list);
-                Log.d("listlen",String.valueOf(list.length()));
-                    Toast.makeText(vegetables_activity.this,list,Toast.LENGTH_LONG);
-                    finish();
+                SharedPreferences sp = getSharedPreferences("infos",0);
+                SharedPreferences.Editor editor = sp.edit();
+                editor.putString("veglist",list);
+                editor.commit();
+                finish();
+
                 }
         });
+
 
 
 

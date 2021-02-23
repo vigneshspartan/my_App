@@ -3,14 +3,17 @@ package com.example.myapplication;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.text.Html;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import java.io.Serializable;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -22,11 +25,16 @@ public class MainActivity extends AppCompatActivity {
     private ImageButton dairybutton;
     private ImageButton utensilsbutton;
     private ImageButton grocerybutton;
-
+    public static String finallist = "";
     //request codes
-    private static final int second_activity_request_code = 0;
 
-    HashMap <Integer,String> hashmap = new HashMap<Integer,String>();
+    @Override
+    public void onResume() {
+        super.onResume();
+        SharedPreferences sp = getSharedPreferences("infos", 0);
+        finallist+= sp.getString("veglist", "novalue");
+        Log.d("temp", finallist);
+    }   
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,11 +66,14 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+
+
         chocolatebutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent myintent = new Intent(MainActivity.this,chocolate_activity.class);
                 startActivity(myintent);
+
             }
         });
         dairybutton.setOnClickListener(new View.OnClickListener() {
@@ -86,6 +97,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(myintent);
             }
         });
+
+
 
     }
 }
