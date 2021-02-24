@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
         ed.remove("fruitslist").commit();
         ed.remove("chocolatelist").commit();
         ed.remove("dairylist").commit();
+
         ed.remove("fruitslist").commit();
         ed.remove("utensilslist").commit();
         //ed.commit();*/
