@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         ed.remove("chocolatelist").commit();
         ed.remove("dairylist").commit();
         ed.remove("fruitslist").commit();
-        ed.remove("utensilslist").commit()
+        ed.remove("utensilslist").commit();
         //ed.commit();*/
         finallist+= sp.getString("veglist", "")+sp.getString("fruitslist","")+sp.getString("chocolatelist","")+sp.getString("dairylist","")+sp.getString("grocerylist","")+sp.getString("utensilslist","");
         Log.d("temp", finallist);
