@@ -2,6 +2,7 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -164,9 +165,10 @@ public class fruits_activity extends AppCompatActivity {
             public void onClick(View v) {
                 int len=list.length();
                 list = list.substring(0,len-1);
-                Log.d("logmsg1",list);
-                Log.d("listlen",String.valueOf(list.length()));
-                Toast.makeText(fruits_activity.this,list,Toast.LENGTH_LONG);
+                SharedPreferences sp = getSharedPreferences("infos",0);
+                SharedPreferences.Editor editor = sp.edit();
+                editor.putString("fruitslist",list);
+                editor.commit();
                 finish();
             }
         });

@@ -32,8 +32,17 @@ public class MainActivity extends AppCompatActivity {
     public void onResume() {
         super.onResume();
         SharedPreferences sp = getSharedPreferences("infos", 0);
-        finallist+= sp.getString("veglist", "novalue");
+        /*SharedPreferences.Editor ed = sp.edit();
+        ed.remove("veglist").commit();
+        ed.remove("fruitslist").commit();
+        ed.remove("chocolatelist").commit();
+        ed.remove("dairylist").commit();
+        ed.remove("fruitslist").commit();
+        ed.remove("utensilslist").commit();
+        //ed.commit();*/
+        finallist+= sp.getString("veglist", "")+sp.getString("fruitslist","")+sp.getString("chocolatelist","")+sp.getString("dairylist","")+sp.getString("grocerylist","")+sp.getString("utensilslist","");
         Log.d("temp", finallist);
+        sp.edit().clear().commit();
     }   
     @Override
     protected void onCreate(Bundle savedInstanceState) {
