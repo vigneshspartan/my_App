@@ -4,43 +4,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fruits_activity">
-
+    tools:context=".fruits_activity"
+    >
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:paddingVertical="3dp"
+            >
 
             <ImageView
-                android:id="@+id/brinjal"
+                android:id="@+id/apple"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/fruits_apple" />
+                app:srcCompat="@drawable/fruits_apple"
+                android:background="#FFFFFF"
+
+                />
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+
                 android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/textView10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
                     android:text="@string/applename"
-                    android:textSize="30sp" />
+                    android:textSize="30sp"
+                    />
 
                 <TextView
                     android:id="@+id/textView11"
-                    android:layout_width="match_parent"
-                    android:layout_height="61dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
                     android:text="@string/applekg"
-                    android:textSize="26sp" />
+                    android:textSize="26sp"
+                    />
+
             </LinearLayout>
 
             <EditText
@@ -50,15 +60,23 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="QTY"
+                android:gravity="center_vertical|center_horizontal"
                 android:inputType="number"
-                android:textSize="25sp" />
+                android:textSize="25sp"
+                android:background="#FFFFFF"
+                android:padding="10dip"/>
 
             <Button
                 android:id="@+id/apple_buy"
-                android:layout_width="57dp"
+                android:layout_width="60dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buy" />
+                android:text="@string/buy"
+                android:textColor="@color/textcol"
+                android:backgroundTint= "#03A9F4"
+
+
+                />
 
         </LinearLayout>
         <LinearLayout
@@ -71,7 +89,8 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/sampban01" />
+                app:srcCompat="@drawable/sampban01"
+                android:background="#FFFFFF"/>
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -102,14 +121,17 @@
                 android:ems="10"
                 android:hint="QTY"
                 android:inputType="number"
-                android:textSize="25sp" />
+                android:textSize="25sp"
+                android:background="#FFFFFF"
+                android:gravity="center_vertical|center_horizontal"/>
 
             <Button
                 android:id="@+id/banana_buy"
-                android:layout_width="57dp"
+                android:layout_width="60dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buy" />
+                android:text="@string/buy"
+                android:backgroundTint="#03A9F4"/>
 
         </LinearLayout>
         <LinearLayout
