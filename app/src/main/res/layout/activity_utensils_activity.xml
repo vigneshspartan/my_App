@@ -22,7 +22,7 @@
                 app:srcCompat="@drawable/utensils_cooker" />
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
@@ -30,34 +30,45 @@
                 <TextView
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="cooker"
-                    android:textSize="30sp" />
+                    android:layout_height="45dp"
+                    android:text="Cooker"
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
-                    android:layout_height="61dp"
+                    android:layout_height="wrap_content"
                     android:text="@string/cookerkg"
-                    android:textSize="26sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <EditText
                 android:id="@+id/cooker_quantity"
-                android:layout_width="50sp"
+                android:layout_width="45sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="QTY"
+                android:gravity="center_vertical|center_horizontal"
                 android:inputType="number"
-                android:textSize="25sp" />
+                android:textSize="20sp"
+                android:background="#FFFFFF"
+                android:padding="10dip" />
 
             <Button
                 android:id="@+id/cooker_buy"
                 android:layout_width="57dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buy" />
+                android:text="@string/buy"
+                android:textColor="@color/textcol"
+                android:backgroundTint= "#03A9F4" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -72,7 +83,7 @@
                 app:srcCompat="@drawable/utensils_hotbox" />
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
@@ -80,34 +91,45 @@
                 <TextView
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="45dp"
                     android:text="@string/hotboxname"
-                    android:textSize="30sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
-                    android:layout_height="61dp"
+                    android:layout_height="wrap_content"
                     android:text="@string/hotboxkg"
-                    android:textSize="26sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <EditText
                 android:id="@+id/hotbox_quantity"
-                android:layout_width="50sp"
+                android:layout_width="45sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="QTY"
+                android:gravity="center_vertical|center_horizontal"
                 android:inputType="number"
-                android:textSize="25sp" />
+                android:textSize="20sp"
+                android:background="#FFFFFF"
+                android:padding="10dip" />
 
             <Button
                 android:id="@+id/hotbox_buy"
                 android:layout_width="57dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buy" />
+                android:text="@string/buy"
+                android:textColor="@color/textcol"
+                android:backgroundTint= "#03A9F4" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -122,7 +144,7 @@
                 app:srcCompat="@drawable/utensils_kettle" />
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
@@ -130,34 +152,45 @@
                 <TextView
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="45dp"
                     android:text="@string/kettlename"
-                    android:textSize="30sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
-                    android:layout_height="61dp"
+                    android:layout_height="wrap_content"
                     android:text="@string/kettlekg"
-                    android:textSize="26sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <EditText
                 android:id="@+id/kettle_quantity"
-                android:layout_width="50sp"
+                android:layout_width="45sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="QTY"
+                android:gravity="center_vertical|center_horizontal"
                 android:inputType="number"
-                android:textSize="25sp" />
+                android:textSize="20sp"
+                android:background="#FFFFFF"
+                android:padding="10dip"/>
 
             <Button
                 android:id="@+id/kettle_buy"
                 android:layout_width="57dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buy" />
+                android:text="@string/buy"
+                android:textColor="@color/textcol"
+                android:backgroundTint= "#03A9F4"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -172,7 +205,7 @@
                 app:srcCompat="@drawable/utensils_knife" />
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
@@ -180,34 +213,45 @@
                 <TextView
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="45dp"
                     android:text="@string/knifename"
-                    android:textSize="30sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
-                    android:layout_height="61dp"
+                    android:layout_height="wrap_content"
                     android:text="@string/knifekg"
-                    android:textSize="26sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp"/>
             </LinearLayout>
 
             <EditText
                 android:id="@+id/knife_quantity"
-                android:layout_width="50sp"
+                android:layout_width="45sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="QTY"
+                android:gravity="center_vertical|center_horizontal"
                 android:inputType="number"
-                android:textSize="25sp" />
+                android:textSize="20sp"
+                android:background="#FFFFFF"
+                android:padding="10dip"/>
 
             <Button
                 android:id="@+id/knife_buy"
                 android:layout_width="57dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buy" />
+                android:text="@string/buy"
+                android:textColor="@color/textcol"
+                android:backgroundTint= "#03A9F4" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -222,7 +266,7 @@
                 app:srcCompat="@drawable/utensils_mixergrinder" />
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
@@ -230,34 +274,45 @@
                 <TextView
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/mixergrindername"
-                    android:textSize="30sp" />
+                    android:layout_height="45dp"
+                    android:text="Mixer"
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
-                    android:layout_height="61dp"
+                    android:layout_height="wrap_content"
                     android:text="@string/mixergrinderkg"
-                    android:textSize="26sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <EditText
                 android:id="@+id/mixie_quantity"
-                android:layout_width="50sp"
+                android:layout_width="45sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="QTY"
+                android:gravity="center_vertical|center_horizontal"
                 android:inputType="number"
-                android:textSize="25sp" />
+                android:textSize="20sp"
+                android:background="#FFFFFF"
+                android:padding="10dip" />
 
             <Button
                 android:id="@+id/mixie_buy"
                 android:layout_width="57dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buy" />
+                android:text="@string/buy"
+                android:textColor="@color/textcol"
+                android:backgroundTint= "#03A9F4"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -272,7 +327,7 @@
                 app:srcCompat="@drawable/utensils_pan" />
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
@@ -280,34 +335,45 @@
                 <TextView
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="45dp"
                     android:text="@string/panname"
-                    android:textSize="30sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
-                    android:layout_height="61dp"
+                    android:layout_height="wrap_content"
                     android:text="@string/pankg"
-                    android:textSize="26sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <EditText
                 android:id="@+id/pan_quantity"
-                android:layout_width="50sp"
+                android:layout_width="45sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="QTY"
+                android:gravity="center_vertical|center_horizontal"
                 android:inputType="number"
-                android:textSize="25sp" />
+                android:textSize="20sp"
+                android:background="#FFFFFF"
+                android:padding="10dip" />
 
             <Button
                 android:id="@+id/pan_buy"
                 android:layout_width="57dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buy" />
+                android:text="@string/buy"
+                android:textColor="@color/textcol"
+                android:backgroundTint= "#03A9F4"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -322,7 +388,7 @@
                 app:srcCompat="@drawable/utensils_ricecooker" />
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
@@ -330,34 +396,45 @@
                 <TextView
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="45dp"
                     android:text="@string/ricecookername"
-                    android:textSize="30sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
-                    android:layout_height="61dp"
+                    android:layout_height="wrap_content"
                     android:text="@string/ricecookerkg"
-                    android:textSize="26sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <EditText
                 android:id="@+id/ricecooker_quantity"
-                android:layout_width="50sp"
+                android:layout_width="45sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="QTY"
+                android:gravity="center_vertical|center_horizontal"
                 android:inputType="number"
-                android:textSize="25sp" />
+                android:textSize="20sp"
+                android:background="#FFFFFF"
+                android:padding="10dip"/>
 
             <Button
                 android:id="@+id/ricecooker_buy"
                 android:layout_width="57dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buy" />
+                android:text="@string/buy"
+                android:textColor="@color/textcol"
+                android:backgroundTint= "#03A9F4"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -372,7 +449,7 @@
                 app:srcCompat="@drawable/utensils_slicer" />
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
@@ -380,34 +457,45 @@
                 <TextView
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="45dp"
                     android:text="@string/slicername"
-                    android:textSize="30sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
-                    android:layout_height="61dp"
+                    android:layout_height="wrap_content"
                     android:text="@string/slicerkg"
-                    android:textSize="26sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <EditText
                 android:id="@+id/slicer_quantity"
-                android:layout_width="50sp"
+                android:layout_width="45sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="QTY"
+                android:gravity="center_vertical|center_horizontal"
                 android:inputType="number"
-                android:textSize="25sp" />
+                android:textSize="20sp"
+                android:background="#FFFFFF"
+                android:padding="10dip" />
 
             <Button
                 android:id="@+id/slicer_buy"
                 android:layout_width="57dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buy" />
+                android:text="@string/buy"
+                android:textColor="@color/textcol"
+                android:backgroundTint= "#03A9F4"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -422,7 +510,7 @@
                 app:srcCompat="@drawable/utensils_tawa" />
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
@@ -430,34 +518,45 @@
                 <TextView
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="45dp"
                     android:text="@string/tawaname"
-                    android:textSize="30sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
-                    android:layout_height="61dp"
+                    android:layout_height="wrap_content"
                     android:text="@string/tawakg"
-                    android:textSize="26sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <EditText
                 android:id="@+id/tawa_quantity"
-                android:layout_width="50sp"
+                android:layout_width="45sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="QTY"
+                android:gravity="center_vertical|center_horizontal"
                 android:inputType="number"
-                android:textSize="25sp" />
+                android:textSize="20sp"
+                android:background="#FFFFFF"
+                android:padding="10dip" />
 
             <Button
                 android:id="@+id/tawa_buy"
                 android:layout_width="57dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buy" />
+                android:text="@string/buy"
+                android:textColor="@color/textcol"
+                android:backgroundTint= "#03A9F4"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -472,7 +571,7 @@
                 app:srcCompat="@drawable/utensils_inductionstove" />
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
@@ -480,40 +579,54 @@
                 <TextView
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/inductionstovename"
-                    android:textSize="30sp" />
+                    android:layout_height="45dp"
+                    android:text="Elec-stove"
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp"/>
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
-                    android:layout_height="61dp"
+                    android:layout_height="wrap_content"
                     android:text="@string/inductionkg"
-                    android:textSize="26sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <EditText
                 android:id="@+id/inductionstove_quantity"
-                android:layout_width="50sp"
+                android:layout_width="45sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="QTY"
+                android:gravity="center_vertical|center_horizontal"
                 android:inputType="number"
-                android:textSize="25sp" />
+                android:textSize="20sp"
+                android:background="#FFFFFF"
+                android:padding="10dip"/>
 
             <Button
                 android:id="@+id/inductionstove_buy"
                 android:layout_width="57dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buy" />
+                android:text="@string/buy"
+                android:textColor="@color/textcol"
+                android:backgroundTint= "#03A9F4"/>
         </LinearLayout>
         <Button
             android:id="@+id/returnbutton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="save and return" />
+            android:text="save and return"
+            android:backgroundTint="#DCDCDC"
+            android:fontFamily="@font/quando"
+            android:textColor="@color/textcol" />
     </LinearLayout>
 
 </android.widget.ScrollView>

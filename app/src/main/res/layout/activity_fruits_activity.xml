@@ -21,16 +21,16 @@
 
             <ImageView
                 android:id="@+id/apple"
-                android:layout_width="100dp"
+                android:layout_width="91dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/fruits_apple"
                 android:background="#FFFFFF"
+                app:srcCompat="@drawable/fruits_apple"
 
                 />
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="164dp"
                 android:layout_height="wrap_content"
 
                 android:orientation="vertical">
@@ -38,31 +38,35 @@
                 <TextView
                     android:id="@+id/textView10"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="@string/applename"
-                    android:textSize="30sp"
-                    />
+                    android:layout_height="45dp"
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:text="Apple"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="@string/applekg"
-                    android:textSize="26sp"
-                    />
+                    android:layout_height="45dp"
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:text="Rs.100/kg"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
 
             </LinearLayout>
 
             <EditText
                 android:id="@+id/apple_quantity"
-                android:layout_width="50sp"
+                android:layout_width="45sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="QTY"
                 android:gravity="center_vertical|center_horizontal"
                 android:inputType="number"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:background="#FFFFFF"
                 android:padding="10dip"/>
 
@@ -71,7 +75,7 @@
                 android:layout_width="60dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buy"
+                android:text="buy"
                 android:textColor="@color/textcol"
                 android:backgroundTint= "#03A9F4"
 
@@ -86,52 +90,60 @@
 
             <ImageView
                 android:id="@+id/brinjal"
-                android:layout_width="100dp"
+                android:layout_width="97dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/sampban01"
-                android:background="#FFFFFF"/>
+                android:background="#FFFFFF"
+                app:srcCompat="@drawable/sampban01" />
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="156dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/textView10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
                     android:text="@string/banananame"
-                    android:textSize="30sp" />
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView11"
-                    android:layout_width="match_parent"
-                    android:layout_height="61dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
                     android:text="@string/bananakg"
-                    android:textSize="26sp" />
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <EditText
                 android:id="@+id/banana_quantity"
-                android:layout_width="50sp"
+                android:layout_width="49dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="#FFFFFF"
                 android:ems="10"
+                android:gravity="center_vertical|center_horizontal"
                 android:hint="QTY"
                 android:inputType="number"
-                android:textSize="25sp"
-                android:background="#FFFFFF"
-                android:gravity="center_vertical|center_horizontal"/>
+                android:padding="10dip"
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/banana_buy"
-                android:layout_width="60dp"
+                android:layout_width="66dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buy"
-                android:backgroundTint="#03A9F4"/>
+                android:backgroundTint="#03A9F4"
+                android:text="buy"
+                android:textColor="@color/textcol" />
 
         </LinearLayout>
         <LinearLayout
@@ -141,48 +153,59 @@
 
             <ImageView
                 android:id="@+id/brinjal"
-                android:layout_width="100dp"
+                android:layout_width="99dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/fruits_guava" />
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="156dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/textView10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="161dp"
+                    android:layout_height="45dp"
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
                     android:text="@string/guavaname"
-                    android:textSize="30sp" />
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView11"
-                    android:layout_width="match_parent"
-                    android:layout_height="61dp"
+                    android:layout_width="161dp"
+                    android:layout_height="45dp"
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
                     android:text="@string/guavakg"
-                    android:textSize="26sp" />
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <EditText
                 android:id="@+id/guava_quantity"
-                android:layout_width="50sp"
+                android:layout_width="45sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="QTY"
+                android:gravity="center_vertical|center_horizontal"
                 android:inputType="number"
-                android:textSize="25sp" />
+                android:textSize="20sp"
+                android:background="#FFFFFF"
+                android:padding="10dip" />
 
             <Button
                 android:id="@+id/guava_buy"
-                android:layout_width="57dp"
+                android:layout_width="60dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buy" />
+                android:text="buy"
+                android:textColor="@color/textcol"
+                android:backgroundTint= "#03A9F4" />
 
         </LinearLayout>
         <LinearLayout
@@ -198,42 +221,53 @@
                 app:srcCompat="@drawable/fruits_grapes" />
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="156dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/textView10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="170dp"
+                    android:layout_height="45dp"
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
                     android:text="@string/grapesname"
-                    android:textSize="30sp" />
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView11"
-                    android:layout_width="match_parent"
-                    android:layout_height="61dp"
+                    android:layout_width="170dp"
+                    android:layout_height="45dp"
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
                     android:text="@string/grapeskg"
-                    android:textSize="26sp" />
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <EditText
                 android:id="@+id/grapes_quantity"
-                android:layout_width="50sp"
+                android:layout_width="45sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="QTY"
+                android:gravity="center_vertical|center_horizontal"
                 android:inputType="number"
-                android:textSize="25sp" />
+                android:textSize="20sp"
+                android:background="#FFFFFF"
+                android:padding="10dip" />
 
             <Button
                 android:id="@+id/grapes_buy"
-                android:layout_width="57dp"
+                android:layout_width="60dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buy" />
+                android:text="buy"
+                android:textColor="@color/textcol"
+                android:backgroundTint= "#03A9F4" />
 
         </LinearLayout>
         <LinearLayout
@@ -249,42 +283,53 @@
                 app:srcCompat="@drawable/fruits_mango" />
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="156dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/textView10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="170dp"
+                    android:layout_height="45dp"
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
                     android:text="@string/mangoname"
-                    android:textSize="30sp" />
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView11"
-                    android:layout_width="match_parent"
-                    android:layout_height="61dp"
+                    android:layout_width="170dp"
+                    android:layout_height="45dp"
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
                     android:text="@string/mangokg"
-                    android:textSize="26sp" />
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <EditText
                 android:id="@+id/mango_quantity"
-                android:layout_width="50sp"
+                android:layout_width="45sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="QTY"
+                android:gravity="center_vertical|center_horizontal"
                 android:inputType="number"
-                android:textSize="25sp" />
+                android:textSize="20sp"
+                android:background="#FFFFFF"
+                android:padding="10dip" />
 
             <Button
                 android:id="@+id/mango_buy"
-                android:layout_width="57dp"
+                android:layout_width="60dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buy" />
+                android:text="buy"
+                android:textColor="@color/textcol"
+                android:backgroundTint= "#03A9F4" />
 
         </LinearLayout>
         <LinearLayout
@@ -300,42 +345,53 @@
                 app:srcCompat="@drawable/fruits_orange" />
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="156dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/textView10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="170dp"
+                    android:layout_height="45dp"
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
                     android:text="@string/orangename"
-                    android:textSize="30sp" />
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView11"
-                    android:layout_width="match_parent"
-                    android:layout_height="61dp"
+                    android:layout_width="170dp"
+                    android:layout_height="45dp"
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
                     android:text="@string/orangekg"
-                    android:textSize="26sp" />
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <EditText
                 android:id="@+id/orange_quantity"
-                android:layout_width="50sp"
+                android:layout_width="45sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="QTY"
+                android:gravity="center_vertical|center_horizontal"
                 android:inputType="number"
-                android:textSize="25sp" />
+                android:textSize="20sp"
+                android:background="#FFFFFF"
+                android:padding="10dip" />
 
             <Button
                 android:id="@+id/orange_buy"
-                android:layout_width="57dp"
+                android:layout_width="60dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buy" />
+                android:text="buy"
+                android:textColor="@color/textcol"
+                android:backgroundTint= "#03A9F4" />
 
         </LinearLayout>
         <LinearLayout
@@ -351,42 +407,53 @@
                 app:srcCompat="@drawable/fruits_papaya" />
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="156dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/textView10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="170dp"
+                    android:layout_height="45dp"
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
                     android:text="@string/papayaname"
-                    android:textSize="30sp" />
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView11"
-                    android:layout_width="match_parent"
-                    android:layout_height="61dp"
+                    android:layout_width="170dp"
+                    android:layout_height="45dp"
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
                     android:text="@string/papayakg"
-                    android:textSize="26sp" />
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <EditText
                 android:id="@+id/papaya_quantity"
-                android:layout_width="50sp"
+                android:layout_width="45sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="QTY"
+                android:gravity="center_vertical|center_horizontal"
                 android:inputType="number"
-                android:textSize="25sp" />
+                android:textSize="20sp"
+                android:background="#FFFFFF"
+                android:padding="10dip" />
 
             <Button
                 android:id="@+id/papaya_buy"
-                android:layout_width="57dp"
+                android:layout_width="60dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buy" />
+                android:text="buy"
+                android:textColor="@color/textcol"
+                android:backgroundTint= "#03A9F4" />
 
         </LinearLayout>
         <LinearLayout
@@ -402,42 +469,53 @@
                 app:srcCompat="@drawable/fruits_pineapple" />
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="156dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/textView10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="170dp"
+                    android:layout_height="45dp"
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
                     android:text="@string/pineapplename"
-                    android:textSize="30sp" />
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
-                    android:layout_height="61dp"
+                    android:layout_height="48dp"
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
                     android:text="@string/pineapplekg"
-                    android:textSize="26sp" />
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <EditText
                 android:id="@+id/pineapple_quantity"
-                android:layout_width="50sp"
+                android:layout_width="45sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="QTY"
+                android:gravity="center_vertical|center_horizontal"
                 android:inputType="number"
-                android:textSize="25sp" />
+                android:textSize="20sp"
+                android:background="#FFFFFF"
+                android:padding="10dip" />
 
             <Button
                 android:id="@+id/pineapple_buy"
-                android:layout_width="57dp"
+                android:layout_width="60dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buy" />
+                android:text="buy"
+                android:textColor="@color/textcol"
+                android:backgroundTint= "#03A9F4" />
 
         </LinearLayout>
         <LinearLayout
@@ -453,42 +531,53 @@
                 app:srcCompat="@drawable/sampban01" />
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="156dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/textView10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
                     android:text="@string/Pomegranatename"
-                    android:textSize="30sp" />
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView11"
-                    android:layout_width="match_parent"
-                    android:layout_height="61dp"
+                    android:layout_width="170dp"
+                    android:layout_height="45dp"
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
                     android:text="@string/pomegranatekg"
-                    android:textSize="26sp" />
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <EditText
                 android:id="@+id/pomegranate_quantity"
-                android:layout_width="50sp"
+                android:layout_width="45sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="QTY"
+                android:gravity="center_vertical|center_horizontal"
                 android:inputType="number"
-                android:textSize="25sp" />
+                android:textSize="20sp"
+                android:background="#FFFFFF"
+                android:padding="10dip" />
 
             <Button
                 android:id="@+id/pomegranate_buy"
-                android:layout_width="57dp"
+                android:layout_width="60dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buy" />
+                android:text="buy"
+                android:textColor="@color/textcol"
+                android:backgroundTint= "#03A9F4" />
 
         </LinearLayout>
         <LinearLayout
@@ -504,49 +593,64 @@
                 app:srcCompat="@drawable/fruits_watermelon" />
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="156dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/textView10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="170dp"
+                    android:layout_height="45dp"
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
                     android:text="@string/watermelonname"
-                    android:textSize="30sp" />
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView11"
-                    android:layout_width="match_parent"
-                    android:layout_height="61dp"
+                    android:layout_width="170dp"
+                    android:layout_height="45dp"
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
                     android:text="@string/watermelonkg"
-                    android:textSize="26sp" />
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <EditText
                 android:id="@+id/watermelon_quantity"
-                android:layout_width="50sp"
+                android:layout_width="45sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="QTY"
+                android:gravity="center_vertical|center_horizontal"
                 android:inputType="number"
-                android:textSize="25sp" />
+                android:textSize="20sp"
+                android:background="#FFFFFF"
+                android:padding="10dip" />
 
             <Button
                 android:id="@+id/watermelon_buy"
-                android:layout_width="57dp"
+                android:layout_width="60dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buy" />
+                android:text="buy"
+                android:textColor="@color/textcol"
+                android:backgroundTint= "#03A9F4" />
 
         </LinearLayout>
+
         <Button
             android:id="@+id/returnbutton"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="save and return" />
+            android:layout_height="match_parent"
+            android:backgroundTint="#DCDCDC"
+            android:fontFamily="@font/quando"
+            android:text="save and return"
+            android:textColor="@color/textcol" />
 
     </LinearLayout>
 </android.widget.ScrollView>

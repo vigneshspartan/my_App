@@ -22,7 +22,7 @@
                 app:srcCompat="@drawable/grocery_chillipowder" />
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="170dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
@@ -30,16 +30,22 @@
                 <TextView
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text= "chilli Powder"
-                    android:textSize="30sp" />
+                    android:layout_height="45dp"
+                    android:text= "Chilli Powder"
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
-                    android:layout_height="61dp"
+                    android:layout_height="wrap_content"
                     android:text="@string/chillipowderkg"
-                    android:textSize="26sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <EditText
@@ -49,15 +55,20 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="QTY"
+                android:gravity="center_vertical|center_horizontal"
                 android:inputType="number"
-                android:textSize="25sp" />
+                android:textSize="20sp"
+                android:background="#FFFFFF"
+                android:padding="10dip" />
 
             <Button
                 android:id="@+id/chilli_powder_buy"
                 android:layout_width="62dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buy" />
+                android:text="@string/buy"
+                android:textColor="@color/textcol"
+                android:backgroundTint= "#03A9F4"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -72,7 +83,7 @@
                 app:srcCompat="@drawable/grocery_oriddal" />
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="170dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
@@ -80,16 +91,22 @@
                 <TextView
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="45dp"
                     android:text="Orid dhal"
-                    android:textSize="30sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
-                    android:layout_height="61dp"
+                    android:layout_height="wrap_content"
                     android:text="@string/oriddalkg"
-                    android:textSize="26sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <EditText
@@ -99,15 +116,20 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="QTY"
+                android:gravity="center_vertical|center_horizontal"
                 android:inputType="number"
-                android:textSize="25sp" />
+                android:textSize="20sp"
+                android:background="#FFFFFF"
+                android:padding="10dip" />
 
             <Button
                 android:id="@+id/orid_dhal_buy"
                 android:layout_width="62dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buy" />
+                android:text="@string/buy"
+                android:textColor="@color/textcol"
+                android:backgroundTint= "#03A9F4"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -122,7 +144,7 @@
                 app:srcCompat="@drawable/grocery_peanut" />
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="170dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
@@ -130,16 +152,22 @@
                 <TextView
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="45dp"
                     android:text="@string/peanutname"
-                    android:textSize="30sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
-                    android:layout_height="61dp"
+                    android:layout_height="wrap_content"
                     android:text="@string/peanutkg"
-                    android:textSize="26sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <EditText
@@ -149,15 +177,20 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="QTY"
+                android:gravity="center_vertical|center_horizontal"
                 android:inputType="number"
-                android:textSize="25sp" />
+                android:textSize="20sp"
+                android:background="#FFFFFF"
+                android:padding="10dip" />
 
             <Button
                 android:id="@+id/peanut_buy"
                 android:layout_width="62dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buy" />
+                android:text="@string/buy"
+                android:textColor="@color/textcol"
+                android:backgroundTint= "#03A9F4"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -172,7 +205,7 @@
                 app:srcCompat="@drawable/grocery_pepper" />
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="170dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
@@ -180,16 +213,22 @@
                 <TextView
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="45dp"
                     android:text="@string/peppername"
-                    android:textSize="30sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
-                    android:layout_height="61dp"
+                    android:layout_height="wrap_content"
                     android:text="@string/pepperkg"
-                    android:textSize="26sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <EditText
@@ -199,15 +238,20 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="QTY"
+                android:gravity="center_vertical|center_horizontal"
                 android:inputType="number"
-                android:textSize="25sp" />
+                android:textSize="20sp"
+                android:background="#FFFFFF"
+                android:padding="10dip" />
 
             <Button
                 android:id="@+id/pepper_buy"
                 android:layout_width="62dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buy" />
+                android:text="@string/buy"
+                android:textColor="@color/textcol"
+                android:backgroundTint= "#03A9F4"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -222,7 +266,7 @@
                 app:srcCompat="@drawable/grocery_rice" />
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="170dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
@@ -230,16 +274,22 @@
                 <TextView
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="45dp"
                     android:text="@string/ricename"
-                    android:textSize="30sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
-                    android:layout_height="61dp"
+                    android:layout_height="wrap_content"
                     android:text="@string/ricekg"
-                    android:textSize="26sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <EditText
@@ -249,15 +299,20 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="QTY"
+                android:gravity="center_vertical|center_horizontal"
                 android:inputType="number"
-                android:textSize="25sp" />
+                android:textSize="20sp"
+                android:background="#FFFFFF"
+                android:padding="10dip" />
 
             <Button
                 android:id="@+id/rice_buy"
                 android:layout_width="62dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buy" />
+                android:text="@string/buy"
+                android:textColor="@color/textcol"
+                android:backgroundTint= "#03A9F4"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -272,7 +327,7 @@
                 app:srcCompat="@drawable/grocery_salt" />
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="170dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
@@ -280,16 +335,22 @@
                 <TextView
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="45dp"
                     android:text="@string/saltname"
-                    android:textSize="30sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
-                    android:layout_height="61dp"
+                    android:layout_height="wrap_content"
                     android:text="@string/saltkg"
-                    android:textSize="26sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <EditText
@@ -299,15 +360,20 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="QTY"
+                android:gravity="center_vertical|center_horizontal"
                 android:inputType="number"
-                android:textSize="25sp" />
+                android:textSize="20sp"
+                android:background="#FFFFFF"
+                android:padding="10dip"/>
 
             <Button
                 android:id="@+id/salt_buy"
                 android:layout_width="62dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buy" />
+                android:text="@string/buy"
+                android:textColor="@color/textcol"
+                android:backgroundTint= "#03A9F4" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -322,7 +388,7 @@
                 app:srcCompat="@drawable/grocery_sunfloweroil" />
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="170dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
@@ -330,16 +396,22 @@
                 <TextView
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="45dp"
                     android:text="@string/sunfloweroilname"
-                    android:textSize="30sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
-                    android:layout_height="61dp"
+                    android:layout_height="wrap_content"
                     android:text="@string/sunfloweroilkg"
-                    android:textSize="26sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <EditText
@@ -349,15 +421,20 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="QTY"
+                android:gravity="center_vertical|center_horizontal"
                 android:inputType="number"
-                android:textSize="25sp" />
+                android:textSize="20sp"
+                android:background="#FFFFFF"
+                android:padding="10dip"/>
 
             <Button
                 android:id="@+id/sunflower_oil_buy"
                 android:layout_width="62dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buy" />
+                android:text="@string/buy"
+                android:textColor="@color/textcol"
+                android:backgroundTint= "#03A9F4" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -372,7 +449,7 @@
                 app:srcCompat="@drawable/grocery_toordal" />
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="170dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
@@ -380,16 +457,22 @@
                 <TextView
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="45dp"
                     android:text="Toor dhal"
-                    android:textSize="30sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
-                    android:layout_height="61dp"
+                    android:layout_height="wrap_content"
                     android:text="@string/toordalkg"
-                    android:textSize="26sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <EditText
@@ -399,15 +482,20 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="QTY"
+                android:gravity="center_vertical|center_horizontal"
                 android:inputType="number"
-                android:textSize="25sp" />
+                android:textSize="20sp"
+                android:background="#FFFFFF"
+                android:padding="10dip"/>
 
             <Button
                 android:id="@+id/toor_dhal_buy"
                 android:layout_width="62dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buy" />
+                android:text="@string/buy"
+                android:textColor="@color/textcol"
+                android:backgroundTint= "#03A9F4"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -422,7 +510,7 @@
                 app:srcCompat="@drawable/grocery_turmeric" />
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="170dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
@@ -430,16 +518,22 @@
                 <TextView
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="45dp"
                     android:text="@string/turmericname"
-                    android:textSize="30sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
-                    android:layout_height="61dp"
+                    android:layout_height="wrap_content"
                     android:text="@string/turmerickg"
-                    android:textSize="26sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <EditText
@@ -449,15 +543,20 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="QTY"
+                android:gravity="center_vertical|center_horizontal"
                 android:inputType="number"
-                android:textSize="25sp" />
+                android:textSize="20sp"
+                android:background="#FFFFFF"
+                android:padding="10dip" />
 
             <Button
                 android:id="@+id/turmeric_buy"
                 android:layout_width="62dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buy" />
+                android:text="@string/buy"
+                android:textColor="@color/textcol"
+                android:backgroundTint= "#03A9F4" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -472,7 +571,7 @@
                 app:srcCompat="@drawable/grocery_wheat" />
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="170dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
@@ -480,16 +579,22 @@
                 <TextView
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="45dp"
                     android:text="@string/wheatname"
-                    android:textSize="30sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
-                    android:layout_height="61dp"
+                    android:layout_height="wrap_content"
                     android:text="@string/wheatkg"
-                    android:textSize="26sp" />
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="@font/quando"
+                    android:textColor="@color/textcol"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <EditText
@@ -499,21 +604,29 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="QTY"
+                android:gravity="center_vertical|center_horizontal"
                 android:inputType="number"
-                android:textSize="25sp" />
+                android:textSize="20sp"
+                android:background="#FFFFFF"
+                android:padding="10dip" />
 
             <Button
                 android:id="@+id/wheat_buy"
                 android:layout_width="62dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/buy" />
+                android:text="@string/buy"
+                android:textColor="@color/textcol"
+                android:backgroundTint= "#03A9F4" />
         </LinearLayout>
         <Button
             android:id="@+id/returnbutton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="save and return" />
+            android:text="save and return"
+            android:backgroundTint="#DCDCDC"
+            android:fontFamily="@font/quando"
+            android:textColor="@color/textcol" />
     </LinearLayout>
 
 </android.widget.ScrollView>
