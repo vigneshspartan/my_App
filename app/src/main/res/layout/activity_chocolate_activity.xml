@@ -285,7 +285,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/kitkatkg"
-                    aandroid:backgroundTint="#03A9F4"
+                    android:backgroundTint="#03A9F4"
                     android:fontFamily="@font/quando"
                     android:textColor="@color/textcol"
                     android:textSize="24sp" />

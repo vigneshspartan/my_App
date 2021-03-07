@@ -46,12 +46,18 @@ public class fruits_activity extends AppCompatActivity {
         apple_buy_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                apple_quantity_value = Integer.valueOf(apple_quantity_button.getText().toString());
-                apple = "apple";
-                String toast = String.valueOf(apple_quantity_value)+" quantity Added";
-                Toast.makeText(fruits_activity.this,toast,Toast.LENGTH_SHORT).show();
-                list += apple+"-"+String.valueOf(apple_quantity_value)+",";
-                Log.d("apple",String.valueOf(apple_quantity_value));
+                String apple_quantity_value = String.valueOf(apple_quantity_button.getText());
+                if(apple_quantity_value.length()!=0){
+                    apple = "apple";
+                    String toast = String.valueOf(apple_quantity_value)+" quantity Added";
+                    Toast.makeText(fruits_activity.this,toast,Toast.LENGTH_SHORT).show();
+                    list += apple+"-"+String.valueOf(apple_quantity_value)+",";
+                    Log.d("apple",String.valueOf(apple_quantity_value));
+                }
+                else{
+                    Toast.makeText(fruits_activity.this,"NaN",Toast.LENGTH_SHORT).show();
+                }
+
 
 
             }
