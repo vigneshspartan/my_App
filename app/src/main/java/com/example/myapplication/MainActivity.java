@@ -128,6 +128,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        final_check.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int len = finallist.length();
+                finallist = finallist.substring(0,len-1);
+                Intent myintent = new Intent(MainActivity.this,final_activity.class);
+                myintent.putExtra("final_list",finallist);
+                startActivity(myintent);
+            }
+        });
+
 
 
     }

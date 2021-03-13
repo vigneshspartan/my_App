@@ -20,7 +20,6 @@
             >
 
             <ImageView
-                android:id="@+id/apple"
                 android:layout_width="91dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -36,7 +35,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView10"
                     android:layout_width="wrap_content"
                     android:layout_height="45dp"
                     android:backgroundTint="#03A9F4"
@@ -46,7 +44,6 @@
                     android:textSize="24sp" />
 
                 <TextView
-                    android:id="@+id/textView11"
                     android:layout_width="wrap_content"
                     android:layout_height="45dp"
                     android:backgroundTint="#03A9F4"
@@ -89,7 +86,6 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/brinjal"
                 android:layout_width="97dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -103,7 +99,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView10"
                     android:layout_width="wrap_content"
                     android:layout_height="45dp"
                     android:backgroundTint="#03A9F4"
@@ -113,7 +108,6 @@
                     android:textSize="24sp" />
 
                 <TextView
-                    android:id="@+id/textView11"
                     android:layout_width="wrap_content"
                     android:layout_height="45dp"
                     android:backgroundTint="#03A9F4"
@@ -152,7 +146,6 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/brinjal"
                 android:layout_width="99dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -165,7 +158,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView10"
                     android:layout_width="161dp"
                     android:layout_height="45dp"
                     android:backgroundTint="#03A9F4"
@@ -175,7 +167,6 @@
                     android:textSize="24sp" />
 
                 <TextView
-                    android:id="@+id/textView11"
                     android:layout_width="161dp"
                     android:layout_height="45dp"
                     android:backgroundTint="#03A9F4"
@@ -214,7 +205,6 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -227,7 +217,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView10"
                     android:layout_width="170dp"
                     android:layout_height="45dp"
                     android:backgroundTint="#03A9F4"
@@ -237,7 +226,6 @@
                     android:textSize="24sp" />
 
                 <TextView
-                    android:id="@+id/textView11"
                     android:layout_width="170dp"
                     android:layout_height="45dp"
                     android:backgroundTint="#03A9F4"
@@ -276,7 +264,6 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -289,7 +276,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView10"
                     android:layout_width="170dp"
                     android:layout_height="45dp"
                     android:backgroundTint="#03A9F4"
@@ -299,7 +285,6 @@
                     android:textSize="24sp" />
 
                 <TextView
-                    android:id="@+id/textView11"
                     android:layout_width="170dp"
                     android:layout_height="45dp"
                     android:backgroundTint="#03A9F4"
@@ -338,7 +323,6 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -351,7 +335,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView10"
                     android:layout_width="170dp"
                     android:layout_height="45dp"
                     android:backgroundTint="#03A9F4"
@@ -361,7 +344,6 @@
                     android:textSize="24sp" />
 
                 <TextView
-                    android:id="@+id/textView11"
                     android:layout_width="170dp"
                     android:layout_height="45dp"
                     android:backgroundTint="#03A9F4"
@@ -400,7 +382,6 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -413,7 +394,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView10"
                     android:layout_width="170dp"
                     android:layout_height="45dp"
                     android:backgroundTint="#03A9F4"
@@ -423,7 +403,6 @@
                     android:textSize="24sp" />
 
                 <TextView
-                    android:id="@+id/textView11"
                     android:layout_width="170dp"
                     android:layout_height="45dp"
                     android:backgroundTint="#03A9F4"
@@ -462,7 +441,6 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -475,7 +453,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView10"
                     android:layout_width="170dp"
                     android:layout_height="45dp"
                     android:backgroundTint="#03A9F4"
@@ -485,7 +462,6 @@
                     android:textSize="24sp" />
 
                 <TextView
-                    android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:backgroundTint="#03A9F4"
@@ -524,7 +500,6 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -537,7 +512,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView10"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
                     android:backgroundTint="#03A9F4"
@@ -547,7 +521,6 @@
                     android:textSize="24sp" />
 
                 <TextView
-                    android:id="@+id/textView11"
                     android:layout_width="170dp"
                     android:layout_height="45dp"
                     android:backgroundTint="#03A9F4"
@@ -586,7 +559,6 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -599,7 +571,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView10"
                     android:layout_width="170dp"
                     android:layout_height="45dp"
                     android:backgroundTint="#03A9F4"
@@ -609,7 +580,6 @@
                     android:textSize="24sp" />
 
                 <TextView
-                    android:id="@+id/textView11"
                     android:layout_width="170dp"
                     android:layout_height="45dp"
                     android:backgroundTint="#03A9F4"

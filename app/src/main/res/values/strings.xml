@@ -15,8 +15,6 @@
 
     <!-- fruits-->
 
-    <string name="applename">Apple</string>
-    <string name="applekg">Rs.120/kg</string>
     <string name="banananame">Banana</string>
     <string name="bananakg">Rs.50/kg</string>
     <string name="guavaname">Guava</string>
@@ -37,16 +35,12 @@
     <string name="watermelonkg">Rs.45/kg</string>
 
 
-
-
-
     <!-- vegetables-->
 
     <string name="bitterguardname">Bitterguard</string>
     <string name="bitterguardkg">Rs.35/kg</string>
     <string name="beetrootname">Beetroot</string>
     <string name="beetrootkg">Rs.30/kg</string>
-    <string name="brinjalname">Brinjal</string>
     <string name="brinjalkg">Rs.30/kg</string>
     <string name="cabbagename">Cabbage</string>
     <string name="cabbagekg">Rs.20/kg</string>
@@ -64,12 +58,9 @@
     <string name="tomatokg">Rs.25/kg</string>
 
 
-
     <!-- grocery-->
 
-    <string name="chillipowdername">Chillipowder</string>
     <string name="chillipowderkg">Rs.75/kg</string>
-    <string name="oriddalname">Oriddal</string>
     <string name="oriddalkg">Rs.130/kg</string>
     <string name="peanutname">Peanut</string>
     <string name="peanutkg">Rs.110/kg</string>
@@ -81,7 +72,6 @@
     <string name="saltkg">Rs.13/kg</string>
     <string name="sunfloweroilname">Sunfloweroil</string>
     <string name="sunfloweroilkg">Rs.130/l</string>
-    <string name="toordalname">Toordal</string>
     <string name="toordalkg">Rs.160/kg</string>
     <string name="turmericname">Turmeric</string>
     <string name="turmerickg">Rs.90/kg</string>
@@ -89,20 +79,16 @@
     <string name="wheatkg">Rs.56/kg</string>
 
 
-
     <!-- utensils-->
 
-    <string name="cookername">Cooker</string>
     <string name="cookerkg">Rs.950/l</string>
     <string name="hotboxname">Hotbox</string>
     <string name="hotboxkg">Rs.600</string>
-    <string name="inductionstovename">Inductionstove</string>
     <string name="inductionkg">Rs.3499</string>
     <string name="kettlename">Kettle</string>
     <string name="kettlekg">Rs.650/l</string>
     <string name="knifename">Knife</string>
     <string name="knifekg">Rs.25</string>
-    <string name="mixergrindername">Mixergrinder</string>
     <string name="mixergrinderkg">Rs.4750</string>
     <string name="panname">Pan</string>
     <string name="pankg">Rs.1600</string>
@@ -114,15 +100,12 @@
     <string name="tawakg">Rs.450</string>
 
 
-
-
     <!-- dairy-->
 
     <string name="buttername">Butter</string>
     <string name="butterkg">Rs.180/kg</string>
     <string name="cheesename">Cheese</string>
     <string name="cheesekg">Rs.270/kg</string>
-    <string name="condensedmilkname">Condensedmilk</string>
     <string name="condensedmilkkg">Rs.75/l</string>
     <string name="creamname">Cream</string>
     <string name="creamkg">Rs.86/l</string>
@@ -140,21 +123,16 @@
     <string name="paneerkg">Rs.320/kg</string>
 
 
-
-
     <!-- chocolate-->
 
     <string name="dairymilkname">Dairymilk</string>
     <string name="dairymilkkg">Rs.35</string>
-    <string name="darkchocolatename">Darkchocolate</string>
     <string name="darkchocolatekg">Rs.70</string>
     <string name="darkfantasyname">Darkfantasy</string>
     <string name="darkfantasykg">Rs.40</string>
-    <string name="fivestarname">Fivestar</string>
     <string name="fivestarkg">Rs.20</string>
     <string name="kitkatname">Kitkat</string>
     <string name="kitkatkg">Rs.25</string>
-    <string name="lottochocopiename">Lottochocopie</string>
     <string name="lottochocopiekg">Rs.10</string>
     <string name="milkybarname">Milkybar</string>
     <string name="milkybarkg">Rs.25</string>
@@ -162,36 +140,7 @@
     <string name="munchkg">Rs.20</string>
     <string name="perkname">Perk</string>
     <string name="perkkg">Rs.30</string>
-    <string name="snickersname">Snickers</string>
     <string name="snickerskg">Rs.20</string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </resources>

@@ -49,7 +49,7 @@ public class vegetables_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 beetroot_quantity_value = Integer.valueOf(beetroot_quantity_button.getText().toString());
-                beetroot = "beetroot";
+                beetroot = "11";
                 String toast = String.valueOf(beetroot_quantity_value)+" quantity Added";
                 Toast.makeText(vegetables_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list += beetroot+"-"+String.valueOf(beetroot_quantity_value)+",";
@@ -62,7 +62,7 @@ public class vegetables_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 bitterguard_quantity_value = Integer.valueOf(bitterguard_quantity_button.getText().toString());
-                bitterguard="bitterguard";
+                bitterguard="12";
                 String toast = String.valueOf(bitterguard_quantity_value)+" quantity Added";
                 Toast.makeText(vegetables_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=bitterguard+"-"+String.valueOf(bitterguard_quantity_value)+",";
@@ -73,7 +73,7 @@ public class vegetables_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 brinjal_quantity_value = Integer.valueOf(brinjal_quantity_button.getText().toString());
-                brinjal="brinjal";
+                brinjal="13";
                 String toast = String.valueOf(brinjal_quantity_value)+" quantity Added";
                 Toast.makeText(vegetables_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=brinjal+"-"+String.valueOf(brinjal_quantity_value)+",";
@@ -84,7 +84,7 @@ public class vegetables_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 cabbage_quantity_value = Integer.valueOf(cabbage_quantity_button.getText().toString());
-                cabbage="cabbage";
+                cabbage="14";
                 String toast = String.valueOf(cabbage_quantity_value)+" quantity Added";
                 Toast.makeText(vegetables_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=cabbage+"-"+String.valueOf(cabbage_quantity_value)+",";
@@ -95,7 +95,7 @@ public class vegetables_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 carrot_quantity_value = Integer.valueOf(carrot_quantity_button.getText().toString());
-                carrot="carrot";
+                carrot="15";
                 String toast = String.valueOf(carrot_quantity_value)+" quantity Added";
                 Toast.makeText(vegetables_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=carrot+"-"+String.valueOf(carrot_quantity_value)+",";
@@ -106,7 +106,7 @@ public class vegetables_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 ladiesfinger_quantity_value = Integer.valueOf(ladiesfinger_quantity_button.getText().toString());
-                ladiesfinger="ladiesfinger";
+                ladiesfinger="16";
                 String toast = String.valueOf(ladiesfinger_quantity_value)+" quantity Added";
                 Toast.makeText(vegetables_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=ladiesfinger+"-"+String.valueOf(ladiesfinger_quantity_value)+",";
@@ -117,7 +117,7 @@ public class vegetables_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 onion_quantity_value = Integer.valueOf(onion_quantity_button.getText().toString());
-                onion="onion";
+                onion="17";
                 String toast = String.valueOf(onion_quantity_value)+" quantity Added";
                 Toast.makeText(vegetables_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=onion+"-"+String.valueOf(onion_quantity_value)+",";
@@ -128,7 +128,7 @@ public class vegetables_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 potato_quantity_value = Integer.valueOf(potato_quantity_button.getText().toString());
-                potato="potato";
+                potato="18";
                 String toast = String.valueOf(potato_quantity_value)+" quantity Added";
                 Toast.makeText(vegetables_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=potato+"-"+String.valueOf(potato_quantity_value)+",";
@@ -139,7 +139,7 @@ public class vegetables_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 raddish_quantity_value = Integer.valueOf(raddish_quantity_button.getText().toString());
-                raddish="raddish";
+                raddish="19";
                 String toast = String.valueOf(raddish_quantity_value)+" quantity Added";
                 Toast.makeText(vegetables_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=raddish+"-"+String.valueOf(raddish_quantity_value)+",";
@@ -150,7 +150,7 @@ public class vegetables_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 tomato_quantity_value = Integer.valueOf(tomato_quantity_button.getText().toString());
-                tomato="tomato";
+                tomato="20";
                 String toast = String.valueOf(tomato_quantity_value)+" quantity Added";
                 Toast.makeText(vegetables_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=tomato+"-"+String.valueOf(tomato_quantity_value)+",";
@@ -163,8 +163,7 @@ public class vegetables_activity extends AppCompatActivity {
         save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int len=list.length();
-                list = list.substring(0,len-1);
+
                 Log.d("logmsg1",list);
                 SharedPreferences sp = getSharedPreferences("infos",0);
                 SharedPreferences.Editor editor = sp.edit();

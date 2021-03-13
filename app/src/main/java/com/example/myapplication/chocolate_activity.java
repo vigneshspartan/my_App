@@ -47,7 +47,7 @@ public class chocolate_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 dairy_milk_quantity_value = Integer.valueOf(dairy_milk_quantity_button.getText().toString());
-                dairy_milk = "dairy_milk";
+                dairy_milk = "51";
                 String toast = String.valueOf(dairy_milk_quantity_value)+" quantity Added";
                 Toast.makeText(chocolate_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list += dairy_milk+"-"+String.valueOf(dairy_milk_quantity_value)+",";
@@ -60,7 +60,7 @@ public class chocolate_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 dark_chocolate_quantity_value = Integer.valueOf(dark_chocolate_quantity_button.getText().toString());
-                dark_chocolate="dark_chocolate";
+                dark_chocolate="52";
                 String toast = String.valueOf(dark_chocolate_quantity_value)+" quantity Added";
                 Toast.makeText(chocolate_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=dark_chocolate+"-"+String.valueOf(dark_chocolate_quantity_value)+",";
@@ -71,7 +71,7 @@ public class chocolate_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 dark_fantasy_quantity_value = Integer.valueOf(dark_fantasy_quantity_button.getText().toString());
-                dark_fantasy="dark_fantasy";
+                dark_fantasy="53";
                 String toast = String.valueOf(dark_fantasy_quantity_value)+" quantity Added";
                 Toast.makeText(chocolate_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=dark_fantasy+"-"+String.valueOf(dark_fantasy_quantity_value)+",";
@@ -82,7 +82,7 @@ public class chocolate_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 five_star_quantity_value = Integer.valueOf(five_star_quantity_button.getText().toString());
-                five_star="five_star";
+                five_star="54";
                 String toast = String.valueOf(five_star_quantity_value)+" quantity Added";
                 Toast.makeText(chocolate_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=five_star+"-"+String.valueOf(five_star_quantity_value)+",";
@@ -93,7 +93,7 @@ public class chocolate_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 kitkat_quantity_value = Integer.valueOf(kitkat_quantity_button.getText().toString());
-                kitkat="kitkat";
+                kitkat="55";
                 String toast = String.valueOf(kitkat_quantity_value)+" quantity Added";
                 Toast.makeText(chocolate_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=kitkat+"-"+String.valueOf(kitkat_quantity_value)+",";
@@ -104,7 +104,7 @@ public class chocolate_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 lotte_choco_pie_quantity_value = Integer.valueOf(lotte_choco_pie_quantity_button.getText().toString());
-                lotte_choco_pie="lotte_choco_pie";
+                lotte_choco_pie="56";
                 String toast = String.valueOf(lotte_choco_pie_quantity_value)+" quantity Added";
                 Toast.makeText(chocolate_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=lotte_choco_pie+"-"+String.valueOf(lotte_choco_pie_quantity_value)+",";
@@ -115,7 +115,7 @@ public class chocolate_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 milky_bar_quantity_value = Integer.valueOf(milky_bar_quantity_button.getText().toString());
-                milky_bar="milky_bar";
+                milky_bar="57";
                 String toast = String.valueOf(milky_bar_quantity_value)+" quantity Added";
                 Toast.makeText(chocolate_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=milky_bar+"-"+String.valueOf(milky_bar_quantity_value)+",";
@@ -126,7 +126,7 @@ public class chocolate_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 munch_quantity_value = Integer.valueOf(munch_quantity_button.getText().toString());
-                munch="munch";
+                munch="58";
                 String toast = String.valueOf(munch_quantity_value)+" quantity Added";
                 Toast.makeText(chocolate_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=munch+"-"+String.valueOf(munch_quantity_value)+",";
@@ -137,7 +137,7 @@ public class chocolate_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 perk_quantity_value = Integer.valueOf(perk_quantity_button.getText().toString());
-                perk="perk";
+                perk="59";
                 String toast = String.valueOf(perk_quantity_value)+" quantity Added";
                 Toast.makeText(chocolate_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=perk+"-"+String.valueOf(perk_quantity_value)+",";
@@ -148,7 +148,7 @@ public class chocolate_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 snickers_quantity_value = Integer.valueOf(snickers_quantity_button.getText().toString());
-                snickers="snickers";
+                snickers="60";
                 String toast = String.valueOf(snickers_quantity_value)+" quantity Added";
                 Toast.makeText(chocolate_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=snickers+"-"+String.valueOf(snickers_quantity_value)+",";
@@ -163,8 +163,6 @@ public class chocolate_activity extends AppCompatActivity {
         save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int len=list.length();
-                list = list.substring(0,len-1);
                 SharedPreferences sp = getSharedPreferences("infos",0);
                 SharedPreferences.Editor editor = sp.edit();
                 editor.putString("chocolatelist",list);

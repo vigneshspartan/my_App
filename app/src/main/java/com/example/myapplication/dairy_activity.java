@@ -47,7 +47,7 @@ public class dairy_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 butter_quantity_value = Integer.valueOf(butter_quantity_button.getText().toString());
-                butter = "butter";
+                butter = "21";
                 String toast = String.valueOf(butter_quantity_value)+" quantity Added";
                 Toast.makeText(dairy_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list += butter+"-"+String.valueOf(butter_quantity_value)+",";
@@ -60,7 +60,7 @@ public class dairy_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 cheese_quantity_value = Integer.valueOf(cheese_quantity_button.getText().toString());
-                cheese="cheese";
+                cheese="22";
                 String toast = String.valueOf(cheese_quantity_value)+" quantity Added";
                 Toast.makeText(dairy_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=cheese+"-"+String.valueOf(cheese_quantity_value)+",";
@@ -71,7 +71,7 @@ public class dairy_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 condensed_milk_quantity_value = Integer.valueOf(condensed_milk_quantity_button.getText().toString());
-                condensed_milk="condensed_milk";
+                condensed_milk="23";
                 String toast = String.valueOf(condensed_milk_quantity_value)+" quantity Added";
                 Toast.makeText(dairy_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=condensed_milk+"-"+String.valueOf(condensed_milk_quantity_value)+",";
@@ -82,7 +82,7 @@ public class dairy_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 cream_quantity_value = Integer.valueOf(cream_quantity_button.getText().toString());
-                cream="cream";
+                cream="24";
                 String toast = String.valueOf(cream_quantity_value)+" quantity Added";
                 Toast.makeText(dairy_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=cream+"-"+String.valueOf(cream_quantity_value)+",";
@@ -93,7 +93,7 @@ public class dairy_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 curd_quantity_value = Integer.valueOf(curd_quantity_button.getText().toString());
-                curd="curd";
+                curd="25";
                 String toast = String.valueOf(curd_quantity_value)+" quantity Added";
                 Toast.makeText(dairy_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=curd+"-"+String.valueOf(curd_quantity_value)+",";
@@ -104,7 +104,7 @@ public class dairy_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 ghee_quantity_value = Integer.valueOf(ghee_quantity_button.getText().toString());
-                ghee="ghee";
+                ghee="26";
                 String toast = String.valueOf(ghee_quantity_value)+" quantity Added";
                 Toast.makeText(dairy_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=ghee+"-"+String.valueOf(ghee_quantity_value)+",";
@@ -115,7 +115,7 @@ public class dairy_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 ice_cream_quantity_value = Integer.valueOf(ice_cream_quantity_button.getText().toString());
-                ice_cream="ice_cream";
+                ice_cream="27";
                 String toast = String.valueOf(ice_cream_quantity_value)+" quantity Added";
                 Toast.makeText(dairy_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=ice_cream+"-"+String.valueOf(ice_cream_quantity_value)+",";
@@ -126,7 +126,7 @@ public class dairy_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 milk_quantity_value = Integer.valueOf(milk_quantity_button.getText().toString());
-                milk="milk";
+                milk="28";
                 String toast = String.valueOf(milk_quantity_value)+" quantity Added";
                 Toast.makeText(dairy_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=milk+"-"+String.valueOf(milk_quantity_value)+",";
@@ -137,7 +137,7 @@ public class dairy_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 milk_powder_quantity_value = Integer.valueOf(milk_powder_quantity_button.getText().toString());
-                milk_powder="milk_powder";
+                milk_powder="29";
                 String toast = String.valueOf(milk_powder_quantity_value)+" quantity Added";
                 Toast.makeText(dairy_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=milk_powder+"-"+String.valueOf(milk_powder_quantity_value)+",";
@@ -148,7 +148,7 @@ public class dairy_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 paneer_quantity_value = Integer.valueOf(paneer_quantity_button.getText().toString());
-                paneer="paneer";
+                paneer="30";
                 String toast = String.valueOf(paneer_quantity_value)+" quantity Added";
                 Toast.makeText(dairy_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=paneer+"-"+String.valueOf(paneer_quantity_value)+",";
@@ -163,8 +163,6 @@ public class dairy_activity extends AppCompatActivity {
         save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int len=list.length();
-                list = list.substring(0,len-1);
                 SharedPreferences sp = getSharedPreferences("infos",0);
                 SharedPreferences.Editor editor = sp.edit();
                 editor.putString("dairylist",list);

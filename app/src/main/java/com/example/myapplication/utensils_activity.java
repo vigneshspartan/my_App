@@ -47,7 +47,7 @@ public class utensils_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 cooker_quantity_value = Integer.valueOf(cooker_quantity_button.getText().toString());
-                cooker = "cooker";
+                cooker = "41";
                 String toast = String.valueOf(cooker_quantity_value)+" quantity Added";
                 Toast.makeText(utensils_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list += cooker+"-"+String.valueOf(cooker_quantity_value)+",";
@@ -60,7 +60,7 @@ public class utensils_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 hotbox_quantity_value = Integer.valueOf(hotbox_quantity_button.getText().toString());
-                hotbox="hotbox";
+                hotbox="42";
                 String toast = String.valueOf(hotbox_quantity_value)+" quantity Added";
                 Toast.makeText(utensils_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=hotbox+"-"+String.valueOf(hotbox_quantity_value)+",";
@@ -71,7 +71,7 @@ public class utensils_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 kettle_quantity_value = Integer.valueOf(kettle_quantity_button.getText().toString());
-                kettle="kettle";
+                kettle="43";
                 String toast = String.valueOf(kettle_quantity_value)+" quantity Added";
                 Toast.makeText(utensils_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=kettle+"-"+String.valueOf(kettle_quantity_value)+",";
@@ -82,7 +82,7 @@ public class utensils_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 knife_quantity_value = Integer.valueOf(knife_quantity_button.getText().toString());
-                knife="knife";
+                knife="44";
                 String toast = String.valueOf(knife_quantity_value)+" quantity Added";
                 Toast.makeText(utensils_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=knife+"-"+String.valueOf(knife_quantity_value)+",";
@@ -93,7 +93,7 @@ public class utensils_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 mixie_quantity_value = Integer.valueOf(mixie_quantity_button.getText().toString());
-                mixie="mixie";
+                mixie="45";
                 String toast = String.valueOf(mixie_quantity_value)+" quantity Added";
                 Toast.makeText(utensils_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=mixie+"-"+String.valueOf(mixie_quantity_value)+",";
@@ -104,7 +104,7 @@ public class utensils_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 pan_quantity_value = Integer.valueOf(pan_quantity_button.getText().toString());
-                pan="pan";
+                pan="46";
                 String toast = String.valueOf(pan_quantity_value)+" quantity Added";
                 Toast.makeText(utensils_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=pan+"-"+String.valueOf(pan_quantity_value)+",";
@@ -115,7 +115,7 @@ public class utensils_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 ricecooker_quantity_value = Integer.valueOf(ricecooker_quantity_button.getText().toString());
-                ricecooker="ricecooker";
+                ricecooker="47";
                 String toast = String.valueOf(ricecooker_quantity_value)+" quantity Added";
                 Toast.makeText(utensils_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=ricecooker+"-"+String.valueOf(ricecooker_quantity_value)+",";
@@ -126,7 +126,7 @@ public class utensils_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 slicer_quantity_value = Integer.valueOf(slicer_quantity_button.getText().toString());
-                slicer="slicer";
+                slicer="48r";
                 String toast = String.valueOf(slicer_quantity_value)+" quantity Added";
                 Toast.makeText(utensils_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=slicer+"-"+String.valueOf(slicer_quantity_value)+",";
@@ -137,7 +137,7 @@ public class utensils_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 tawa_quantity_value = Integer.valueOf(tawa_quantity_button.getText().toString());
-                tawa="tawa";
+                tawa="49";
                 String toast = String.valueOf(tawa_quantity_value)+" quantity Added";
                 Toast.makeText(utensils_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=tawa+"-"+String.valueOf(tawa_quantity_value)+",";
@@ -148,7 +148,7 @@ public class utensils_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 inductionstove_quantity_value = Integer.valueOf(inductionstove_quantity_button.getText().toString());
-                inductionstove="inductionstove";
+                inductionstove="50";
                 String toast = String.valueOf(inductionstove_quantity_value)+" quantity Added";
                 Toast.makeText(utensils_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=inductionstove+"-"+String.valueOf(inductionstove_quantity_value)+",";
@@ -163,8 +163,6 @@ public class utensils_activity extends AppCompatActivity {
         save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int len=list.length();
-                list = list.substring(0,len-1);
                 SharedPreferences sp = getSharedPreferences("infos",0);
                 SharedPreferences.Editor editor = sp.edit();
                 editor.putString("utensilslist",list);

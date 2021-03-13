@@ -15,7 +15,6 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -28,7 +27,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:text="@string/buttername"
@@ -38,7 +36,6 @@
                     android:textSize="24sp" />
 
                 <TextView
-                    android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:text="@string/butterkg"
@@ -76,7 +73,6 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -89,7 +85,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:text="@string/cheesename"
@@ -99,7 +94,6 @@
                     android:textSize="24sp" />
 
                 <TextView
-                    android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:text="@string/cheesekg"
@@ -137,7 +131,6 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -150,7 +143,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:text="conden-milk"
@@ -160,7 +152,6 @@
                     android:textSize="24sp" />
 
                 <TextView
-                    android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:text="@string/condensedmilkkg"
@@ -198,7 +189,6 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -211,7 +201,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:text="@string/creamname"
@@ -221,7 +210,6 @@
                     android:textSize="24sp" />
 
                 <TextView
-                    android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:text="@string/creamkg"
@@ -259,7 +247,6 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -272,7 +259,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:text="@string/curdname"
@@ -282,7 +268,6 @@
                     android:textSize="24sp" />
 
                 <TextView
-                    android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/curdkg"
@@ -320,7 +305,6 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -333,7 +317,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:text="@string/gheename"
@@ -343,7 +326,6 @@
                     android:textSize="24sp" />
 
                 <TextView
-                    android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="@string/gheekg"
@@ -381,7 +363,6 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -394,7 +375,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:text="@string/icecreamname"
@@ -404,7 +384,6 @@
                     android:textSize="24sp" />
 
                 <TextView
-                    android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/icecreamkg"
@@ -442,7 +421,6 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -455,7 +433,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:text="@string/milkname"
@@ -465,7 +442,6 @@
                     android:textSize="24sp" />
 
                 <TextView
-                    android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/milkkg"
@@ -503,7 +479,6 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -516,7 +491,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:text="@string/milkpowdername"
@@ -526,7 +500,6 @@
                     android:textSize="24sp" />
 
                 <TextView
-                    android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/milkpowderkg"
@@ -564,7 +537,6 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -577,7 +549,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:text="@string/paneername"
@@ -587,7 +558,6 @@
                     android:textSize="24sp" />
 
                 <TextView
-                    android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/paneerkg"

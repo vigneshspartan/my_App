@@ -48,7 +48,7 @@ public class fruits_activity extends AppCompatActivity {
             public void onClick(View v) {
                 String apple_quantity_value = String.valueOf(apple_quantity_button.getText());
                 if(apple_quantity_value.length()!=0){
-                    apple = "apple";
+                    apple = "1";
                     String toast = String.valueOf(apple_quantity_value)+" quantity Added";
                     Toast.makeText(fruits_activity.this,toast,Toast.LENGTH_SHORT).show();
                     list += apple+"-"+String.valueOf(apple_quantity_value)+",";
@@ -66,7 +66,7 @@ public class fruits_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 banana_quantity_value = Integer.valueOf(banana_quantity_button.getText().toString());
-                banana="banana";
+                banana="2";
                 String toast = String.valueOf(banana_quantity_value)+" quantity Added";
                 Toast.makeText(fruits_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=banana+"-"+String.valueOf(banana_quantity_value)+",";
@@ -77,7 +77,7 @@ public class fruits_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 guava_quantity_value = Integer.valueOf(guava_quantity_button.getText().toString());
-                guava="guava";
+                guava="3";
                 String toast = String.valueOf(guava_quantity_value)+" quantity Added";
                 Toast.makeText(fruits_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=guava+"-"+String.valueOf(guava_quantity_value)+",";
@@ -88,7 +88,7 @@ public class fruits_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 grapes_quantity_value = Integer.valueOf(grapes_quantity_button.getText().toString());
-                grapes="grapes";
+                grapes="4";
                 String toast = String.valueOf(grapes_quantity_value)+" quantity Added";
                 Toast.makeText(fruits_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=grapes+"-"+String.valueOf(grapes_quantity_value)+",";
@@ -99,7 +99,7 @@ public class fruits_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 mango_quantity_value = Integer.valueOf(mango_quantity_button.getText().toString());
-                mango="mango";
+                mango="5";
                 String toast = String.valueOf(mango_quantity_value)+" quantity Added";
                 Toast.makeText(fruits_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=mango+"-"+String.valueOf(mango_quantity_value)+",";
@@ -110,7 +110,7 @@ public class fruits_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 orange_quantity_value = Integer.valueOf(orange_quantity_button.getText().toString());
-                orange="orange";
+                orange="6";
                 String toast = String.valueOf(orange_quantity_value)+" quantity Added";
                 Toast.makeText(fruits_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=orange+"-"+String.valueOf(orange_quantity_value)+",";
@@ -121,7 +121,7 @@ public class fruits_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 papaya_quantity_value = Integer.valueOf(papaya_quantity_button.getText().toString());
-                papaya="papaya";
+                papaya="7";
                 String toast = String.valueOf(papaya_quantity_value)+" quantity Added";
                 Toast.makeText(fruits_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=papaya+"-"+String.valueOf(papaya_quantity_value)+",";
@@ -132,7 +132,7 @@ public class fruits_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 pineapple_quantity_value = Integer.valueOf(pineapple_quantity_button.getText().toString());
-                pineapple="pineapple";
+                pineapple="8";
                 String toast = String.valueOf(pineapple_quantity_value)+" quantity Added";
                 Toast.makeText(fruits_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=pineapple+"-"+String.valueOf(pineapple_quantity_value)+",";
@@ -143,7 +143,7 @@ public class fruits_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 pomegranate_quantity_value = Integer.valueOf(pomegranate_quantity_button.getText().toString());
-                pomegranate="pomegranate";
+                pomegranate="9";
                 String toast = String.valueOf(pomegranate_quantity_value)+" quantity Added";
                 Toast.makeText(fruits_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=pomegranate+"-"+String.valueOf(pomegranate_quantity_value)+",";
@@ -154,7 +154,7 @@ public class fruits_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 watermelon_quantity_value = Integer.valueOf(watermelon_quantity_button.getText().toString());
-                watermelon="watermelon";
+                watermelon="10";
                 String toast = String.valueOf(watermelon_quantity_value)+" quantity Added";
                 Toast.makeText(fruits_activity.this,toast,Toast.LENGTH_SHORT).show();
                 list+=watermelon+"-"+String.valueOf(watermelon_quantity_value)+",";
@@ -169,8 +169,6 @@ public class fruits_activity extends AppCompatActivity {
         save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int len=list.length();
-                list = list.substring(0,len-1);
                 SharedPreferences sp = getSharedPreferences("infos",0);
                 SharedPreferences.Editor editor = sp.edit();
                 editor.putString("fruitslist",list);

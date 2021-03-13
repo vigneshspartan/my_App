@@ -15,7 +15,6 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -28,7 +27,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:text="@string/dairymilkname"
@@ -38,7 +36,6 @@
                     android:textSize="24sp" />
 
                 <TextView
-                    android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/dairymilkkg"
@@ -76,7 +73,6 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -89,7 +85,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:text="Dark choco"
@@ -99,7 +94,6 @@
                     android:textSize="24sp" />
 
                 <TextView
-                    android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/darkchocolatekg"
@@ -136,7 +130,6 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -149,7 +142,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:text="@string/darkfantasyname"
@@ -159,7 +151,6 @@
                     android:textSize="24sp" />
 
                 <TextView
-                    android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/darkfantasykg"
@@ -197,7 +188,6 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -210,7 +200,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:text="Five star"
@@ -220,7 +209,6 @@
                     android:textSize="24sp" />
 
                 <TextView
-                    android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/fivestarkg"
@@ -258,7 +246,6 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -271,7 +258,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:text="@string/kitkatname"
@@ -281,7 +267,6 @@
                     android:textSize="24sp" />
 
                 <TextView
-                    android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/kitkatkg"
@@ -320,7 +305,6 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -333,7 +317,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:text="Lotte Choco"
@@ -343,7 +326,6 @@
                     android:textSize="24sp"/>
 
                 <TextView
-                    android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/lottochocopiekg"
@@ -381,7 +363,6 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -394,7 +375,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:text="@string/milkybarname"
@@ -404,7 +384,6 @@
                     android:textSize="24sp" />
 
                 <TextView
-                    android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/milkybarkg"
@@ -442,7 +421,6 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -455,7 +433,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:text="@string/munchname"
@@ -465,7 +442,6 @@
                     android:textSize="24sp" />
 
                 <TextView
-                    android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/munchkg"
@@ -503,7 +479,6 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -516,7 +491,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:text="@string/perkname"
@@ -526,7 +500,6 @@
                     android:textSize="24sp" />
 
                 <TextView
-                    android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/perkkg"
@@ -564,7 +537,6 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/brinjal"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -577,7 +549,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:text="snickers"
@@ -587,7 +558,6 @@
                     android:textSize="24sp" />
 
                 <TextView
-                    android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/snickerskg"
