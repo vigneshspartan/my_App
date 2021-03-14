@@ -33,8 +33,8 @@ public class final_activity extends Activity
     int readBufferPosition;
     int counter;
     volatile boolean stopWorker;
-    String check;
-    HashMap<String,Integer> map = new HashMap<>();
+    String check,keyset;
+    HashMap<Integer,Integer> map = new HashMap<>();
 
     @Override
     public void onCreate(Bundle savedInstanceState)
@@ -42,39 +42,52 @@ public class final_activity extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_final_activity);
         check=getIntent().getStringExtra("final_list");
-        String temps="";String tempq = "";
+        int temps=0;int tempq = 0;
+        HashMap<Integer,Integer> map = new HashMap<>();
+        int flag=0;
         for(int i = 0;i<check.length();i++){
             Character c = check.charAt(i);
-            if(!c.equals(',')){
+            if(!c.equals(','))
+            {
                 if(c!='-')
                 {
-                    if( c>='0' && c<='9')
-                        tempq+=c;
+                    if( flag==0)
+                    {
+                        temps=temps*10+(Integer.valueOf(c)-48);
+                       // System.out.println(temps);
+                    }
                     else
-                        temps+=c;
+                    {
+                        tempq=tempq*10+(Integer.valueOf(c)-48);
+                        //System.out.println(tempq);
+                    }
                 }
                 else  if(c.equals('-'))
                 {
+                    flag=1;
                     continue;
                 }
             }
             else{
-                map.put(temps,map.containsKey(temps)?map.get(temps)+ Integer.valueOf(tempq):Integer.valueOf(tempq));
+                //System.out.println(temps+" "+tempq);
+                map.put(temps,map.containsKey(temps)?map.get(temps)+tempq:tempq);
                 //System.out.println(map);
-                temps="";tempq = "";
+                temps=0;tempq = 0;
+                flag=0;
             }
         }
         //System.out.println(map);
-        map.put(temps,map.containsKey(temps)?map.get(temps)+ Integer.valueOf(tempq):Integer.valueOf(tempq));
-        check="";
-        for (HashMap.Entry<String, Integer> entry: map.entrySet())
-            check+= entry.getKey()
-        Log.d("check",check);
+        map.put(temps,map.containsKey(temps)?map.get(temps)+tempq:tempq);
+       // System.out.println(map);
+        //Log.d("keysetcheck",keyset);
+        Log.d("mapcheck",map.toString());
+         keyset=map.keySet().toString();
+        Log.d("keysetcheck2",keyset);
         Button openButton = (Button)findViewById(R.id.open);
         Button sendButton = (Button)findViewById(R.id.send);
         Button closeButton = (Button)findViewById(R.id.close);
         myLabel = (TextView)findViewById(R.id.label);
-        myTextbox = (EditText)findViewById(R.id.entry);
+        //myTextbox = (EditText)findViewById(R.id.entry);
 
         //Open Button
         openButton.setOnClickListener(new View.OnClickListener()
@@ -223,9 +236,7 @@ public class final_activity extends Activity
 
     void sendData() throws IOException
     {
-        String msg = myTextbox.getText().toString();
-        msg += "\n";
-        mmOutputStream.write(msg.getBytes());
+        mmOutputStream.write(keyset.getBytes());
         myLabel.setText("Data Sent");
     }
 
