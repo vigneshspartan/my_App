@@ -12,6 +12,8 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.EditText;
 import android.widget.Button;
+import android.widget.Toast;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -22,7 +24,6 @@ import java.util.UUID;
 public class final_activity extends Activity
 {
     TextView myLabel;
-    EditText myTextbox;
     BluetoothAdapter mBluetoothAdapter;
     BluetoothSocket mmSocket;
     BluetoothDevice mmDevice;
@@ -81,27 +82,23 @@ public class final_activity extends Activity
        // System.out.println(map);
         //Log.d("keysetcheck",keyset);
         Log.d("mapcheck",map.toString());
-         keyset=map.keySet().toString();
+        keyset=map.keySet().toString().replaceAll(",","-").replaceAll(" ","");
+        int len = keyset.length();
+        if(len<1){
+            ;
+        }
+        else{
+            keyset = keyset.substring(3,len-1);
+        }
         Log.d("keysetcheck2",keyset);
-        Button openButton = (Button)findViewById(R.id.open);
         Button sendButton = (Button)findViewById(R.id.send);
         Button closeButton = (Button)findViewById(R.id.close);
-        myLabel = (TextView)findViewById(R.id.label);
-        //myTextbox = (EditText)findViewById(R.id.entry);
-
-        //Open Button
-        openButton.setOnClickListener(new View.OnClickListener()
-        {
-            public void onClick(View v)
-            {
-                try
-                {
-                    findBT();
-                    openBT();
-                }
-                catch (IOException ex) { }
-            }
-        });
+        try{
+            findBT();
+            openBT();}
+        catch (IOException e){
+            Toast.makeText(getApplicationContext(),"cannot find BT", Toast.LENGTH_SHORT).show();
+        }
 
         //Send Button
         sendButton.setOnClickListener(new View.OnClickListener()
@@ -137,7 +134,7 @@ public class final_activity extends Activity
         mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
         if(mBluetoothAdapter == null)
         {
-            myLabel.setText("No bluetooth adapter available");
+            Toast.makeText(getApplicationContext(),"No bluetooth adapter available",Toast.LENGTH_SHORT).show();
         }
 
         if(!mBluetoothAdapter.isEnabled())
@@ -159,7 +156,7 @@ public class final_activity extends Activity
                 }
             }
         }
-        myLabel.setText("Bluetooth Device Found");
+        Toast.makeText(getApplicationContext(),"Bluetooth Device Found",Toast.LENGTH_SHORT).show();
     }
 
     void openBT() throws IOException
@@ -173,7 +170,7 @@ public class final_activity extends Activity
 
             beginListenForData();
 
-            myLabel.setText("Bluetooth Opened");
+            Toast.makeText(getApplicationContext(),"Bluetooth Opened",Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -212,7 +209,7 @@ public class final_activity extends Activity
                                     {
                                         public void run()
                                         {
-                                            myLabel.setText(data);
+                                            ;
                                         }
                                     });
                                 }
@@ -236,8 +233,9 @@ public class final_activity extends Activity
 
     void sendData() throws IOException
     {
+        keyset+='\n';
         mmOutputStream.write(keyset.getBytes());
-        myLabel.setText("Data Sent");
+        Toast.makeText(getApplicationContext(),"data sent successfully",Toast.LENGTH_SHORT).show();
     }
 
     void closeBT() throws IOException
@@ -246,6 +244,6 @@ public class final_activity extends Activity
         mmOutputStream.close();
         mmInputStream.close();
         mmSocket.close();
-        myLabel.setText("Bluetooth Closed");
+        Toast.makeText(getApplicationContext(),"Bluetooth Closed",Toast.LENGTH_SHORT).show();
     }
 }
