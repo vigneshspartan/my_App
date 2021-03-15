@@ -233,7 +233,7 @@ public class final_activity extends Activity
 
     void sendData() throws IOException
     {
-        keyset+='\n';
+        keyset+='@';
         mmOutputStream.write(keyset.getBytes());
         Toast.makeText(getApplicationContext(),"data sent successfully",Toast.LENGTH_SHORT).show();
     }

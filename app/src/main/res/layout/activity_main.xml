@@ -27,7 +27,7 @@
 
     <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="670dp"
+        android:layout_height="0dp"
         android:background="@drawable/mainbackgroundcolor"
         android:columnCount="2"
         android:padding="5dp"
@@ -274,15 +274,19 @@
 
     </GridLayout>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/final_data_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
+        android:layout_width="103dp"
+        android:layout_height="56dp"
+        android:background="@drawable/proceed_button"
+        android:backgroundTint="#4a69bd"
+        android:text="PROCEED"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintHorizontal_bias="0.902"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.96" />
+        app:layout_constraintVertical_bias="0.961" />
 </androidx.constraintlayout.widget.ConstraintLayout>
