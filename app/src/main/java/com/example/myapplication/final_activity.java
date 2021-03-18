@@ -116,12 +116,7 @@ public class final_activity extends Activity
         {
             public void onClick(View v)
             {
-                try
-                {
-                    closeBT();
-                    finish();
-                }
-                catch (IOException ex) { }
+                finish();
             }
         });
     }
@@ -241,12 +236,4 @@ public class final_activity extends Activity
         Toast.makeText(getApplicationContext(),"data sent successfully",Toast.LENGTH_SHORT).show();
     }
 
-    void closeBT() throws IOException
-    {
-        stopWorker = true;
-        mmOutputStream.close();
-        mmInputStream.close();
-        mmSocket.close();
-        Toast.makeText(getApplicationContext(),"Bluetooth Closed",Toast.LENGTH_SHORT).show();
-    }
 }
