@@ -99,10 +99,10 @@ public class final_activity extends Activity
         {
             public void onClick(View v)
             {
-                checkout.setText("Your order has been sent to the Robot");
                 try
                 {
                     sendData();
+                    checkout.setText("Your order has been sent to the Robot");
 
                 }
                 catch (IOException ex) {
