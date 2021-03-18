@@ -11,23 +11,37 @@
         android:id="@+id/send"
         android:layout_width="114dp"
         android:layout_height="wrap_content"
-        android:text="Send"
-        tools:layout_editor_absoluteX="57dp"
-        tools:layout_editor_absoluteY="530dp" />
+        android:text="Confirm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/close"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.352" />
 
     <Button
         android:id="@+id/close"
         android:layout_width="126dp"
         android:layout_height="46dp"
-        android:text="Close"
-        tools:layout_editor_absoluteX="260dp"
-        tools:layout_editor_absoluteY="530dp" />
+        android:text="Cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.757"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35" />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        app:layout_constraintHeight_percent="0.5"
-        android:text="TextView" />
+        android:id="@+id/checkout"
+        android:layout_width="409dp"
+        android:layout_height="171dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/quando"
+        android:text="Are You Sure to Proceed?"
+        android:textSize="45dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintHeight_percent="0.25"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="2dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

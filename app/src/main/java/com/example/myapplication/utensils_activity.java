@@ -15,7 +15,7 @@ public class utensils_activity extends AppCompatActivity {
     String list="";
     Button cooker_buy_button,hotbox_buy_button,kettle_buy_button,knife_buy_button,mixie_buy_button,pan_buy_button,ricecooker_buy_button,slicer_buy_button,tawa_buy_button,inductionstove_buy_button,save;
     EditText cooker_quantity_button,hotbox_quantity_button,kettle_quantity_button,knife_quantity_button,mixie_quantity_button,pan_quantity_button,ricecooker_quantity_button,slicer_quantity_button,tawa_quantity_button,inductionstove_quantity_button;
-    int cooker_quantity_value,hotbox_quantity_value,kettle_quantity_value,knife_quantity_value,mixie_quantity_value,pan_quantity_value,ricecooker_quantity_value,slicer_quantity_value,tawa_quantity_value,inductionstove_quantity_value;
+    String cooker_quantity_value,hotbox_quantity_value,kettle_quantity_value,knife_quantity_value,mixie_quantity_value,pan_quantity_value,ricecooker_quantity_value,slicer_quantity_value,tawa_quantity_value,inductionstove_quantity_value;
     String cooker,hotbox,kettle,knife,mixie,pan,ricecooker,slicer,tawa,inductionstove;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,113 +46,173 @@ public class utensils_activity extends AppCompatActivity {
         cooker_buy_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                cooker_quantity_value = Integer.valueOf(cooker_quantity_button.getText().toString());
-                cooker = "41";
-                String toast = String.valueOf(cooker_quantity_value)+" quantity Added";
-                Toast.makeText(utensils_activity.this,toast,Toast.LENGTH_SHORT).show();
-                list += cooker+"-"+String.valueOf(cooker_quantity_value)+",";
-                Log.d("cooker",String.valueOf(cooker_quantity_value));
-
+                cooker_quantity_value = String.valueOf(cooker_quantity_button.getText().toString());
+                if (cooker_quantity_value.length()!=0) {
+                    cooker = "cooker";
+                    String toast = String.valueOf(cooker_quantity_value) + " quantity Added";
+                    Toast.makeText(utensils_activity.this, toast, Toast.LENGTH_SHORT).show();
+                    list += cooker + "-" + String.valueOf(cooker_quantity_value) + ",";
+                    Log.d("cooker", String.valueOf(cooker_quantity_value));
+                }
+                else
+                {
+                    Toast.makeText(utensils_activity.this,"Please Enter Valid Quantity",Toast.LENGTH_SHORT).show();
+                }
 
             }
         });
         hotbox_buy_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                hotbox_quantity_value = Integer.valueOf(hotbox_quantity_button.getText().toString());
-                hotbox="42";
-                String toast = String.valueOf(hotbox_quantity_value)+" quantity Added";
-                Toast.makeText(utensils_activity.this,toast,Toast.LENGTH_SHORT).show();
-                list+=hotbox+"-"+String.valueOf(hotbox_quantity_value)+",";
-                Log.d("hotbox",String.valueOf(hotbox_quantity_value));
+                hotbox_quantity_value = String.valueOf(hotbox_quantity_button.getText().toString());
+                if (hotbox_quantity_value.length()!=0) {
+                    hotbox = "hotbox";
+                    String toast = String.valueOf(hotbox_quantity_value) + " quantity Added";
+                    Toast.makeText(utensils_activity.this, toast, Toast.LENGTH_SHORT).show();
+                    list += hotbox + "-" + String.valueOf(hotbox_quantity_value) + ",";
+                    Log.d("hotbox", String.valueOf(hotbox_quantity_value));
+                }
+                else
+                {
+                    Toast.makeText(utensils_activity.this,"Please Enter Valid Quantity",Toast.LENGTH_SHORT).show();
+                }
             }
         });
         kettle_buy_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                kettle_quantity_value = Integer.valueOf(kettle_quantity_button.getText().toString());
-                kettle="43";
-                String toast = String.valueOf(kettle_quantity_value)+" quantity Added";
-                Toast.makeText(utensils_activity.this,toast,Toast.LENGTH_SHORT).show();
-                list+=kettle+"-"+String.valueOf(kettle_quantity_value)+",";
-                Log.d("kettle",String.valueOf(kettle_quantity_value));
+                kettle_quantity_value = String.valueOf(kettle_quantity_button.getText().toString());
+                if (kettle_quantity_value.length()!=0) {
+                    kettle = "kettle";
+                    String toast = String.valueOf(kettle_quantity_value) + " quantity Added";
+                    Toast.makeText(utensils_activity.this, toast, Toast.LENGTH_SHORT).show();
+                    list += kettle + "-" + String.valueOf(kettle_quantity_value) + ",";
+                    Log.d("kettle", String.valueOf(kettle_quantity_value));
+                }
+                else
+                {
+                    Toast.makeText(utensils_activity.this,"Please Enter Valid Quantity",Toast.LENGTH_SHORT).show();
+                }
             }
         });
         knife_buy_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                knife_quantity_value = Integer.valueOf(knife_quantity_button.getText().toString());
-                knife="44";
-                String toast = String.valueOf(knife_quantity_value)+" quantity Added";
-                Toast.makeText(utensils_activity.this,toast,Toast.LENGTH_SHORT).show();
-                list+=knife+"-"+String.valueOf(knife_quantity_value)+",";
-                Log.d("knife",String.valueOf(knife_quantity_value));
+                knife_quantity_value = String.valueOf(knife_quantity_button.getText().toString());
+                if (knife_quantity_value.length()!=0) {
+                    knife = "knife";
+                    String toast = String.valueOf(knife_quantity_value) + " quantity Added";
+                    Toast.makeText(utensils_activity.this, toast, Toast.LENGTH_SHORT).show();
+                    list += knife + "-" + String.valueOf(knife_quantity_value) + ",";
+                    Log.d("knife", String.valueOf(knife_quantity_value));
+                }
+                else
+                {
+                    Toast.makeText(utensils_activity.this,"Please Enter Valid Quantity",Toast.LENGTH_SHORT).show();
+                }
             }
         });
         mixie_buy_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mixie_quantity_value = Integer.valueOf(mixie_quantity_button.getText().toString());
-                mixie="45";
-                String toast = String.valueOf(mixie_quantity_value)+" quantity Added";
-                Toast.makeText(utensils_activity.this,toast,Toast.LENGTH_SHORT).show();
-                list+=mixie+"-"+String.valueOf(mixie_quantity_value)+",";
-                Log.d("mixie",String.valueOf(mixie_quantity_value));
+                mixie_quantity_value = String.valueOf(mixie_quantity_button.getText().toString());
+                if (mixie_quantity_value.length()!=0) {
+                    mixie = "mixie";
+                    String toast = String.valueOf(mixie_quantity_value) + " quantity Added";
+                    Toast.makeText(utensils_activity.this, toast, Toast.LENGTH_SHORT).show();
+                    list += mixie + "-" + String.valueOf(mixie_quantity_value) + ",";
+                    Log.d("mixie", String.valueOf(mixie_quantity_value));
+                }
+                else
+                {
+                    Toast.makeText(utensils_activity.this,"Please Enter Valid Quantity",Toast.LENGTH_SHORT).show();
+                }
             }
         });
         pan_buy_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                pan_quantity_value = Integer.valueOf(pan_quantity_button.getText().toString());
-                pan="46";
-                String toast = String.valueOf(pan_quantity_value)+" quantity Added";
-                Toast.makeText(utensils_activity.this,toast,Toast.LENGTH_SHORT).show();
-                list+=pan+"-"+String.valueOf(pan_quantity_value)+",";
-                Log.d("pan",String.valueOf(pan_quantity_value));
+                pan_quantity_value = String.valueOf(pan_quantity_button.getText().toString());
+                if (pan_quantity_value.length()!=0) {
+                    pan = "pan";
+                    String toast = String.valueOf(pan_quantity_value) + " quantity Added";
+                    Toast.makeText(utensils_activity.this, toast, Toast.LENGTH_SHORT).show();
+                    list += pan + "-" + String.valueOf(pan_quantity_value) + ",";
+                    Log.d("pan", String.valueOf(pan_quantity_value));
+                }
+                else
+                {
+                    Toast.makeText(utensils_activity.this,"Please Enter Valid Quantity",Toast.LENGTH_SHORT).show();
+                }
             }
         });
         ricecooker_buy_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ricecooker_quantity_value = Integer.valueOf(ricecooker_quantity_button.getText().toString());
-                ricecooker="47";
-                String toast = String.valueOf(ricecooker_quantity_value)+" quantity Added";
-                Toast.makeText(utensils_activity.this,toast,Toast.LENGTH_SHORT).show();
-                list+=ricecooker+"-"+String.valueOf(ricecooker_quantity_value)+",";
-                Log.d("ricecooker",String.valueOf(ricecooker_quantity_value));
+                ricecooker_quantity_value = String.valueOf(ricecooker_quantity_button.getText().toString());
+                if (ricecooker_quantity_value.length()!=0) {
+                    ricecooker = "ricecooker";
+                    String toast = String.valueOf(ricecooker_quantity_value) + " quantity Added";
+                    Toast.makeText(utensils_activity.this, toast, Toast.LENGTH_SHORT).show();
+                    list += ricecooker + "-" + String.valueOf(ricecooker_quantity_value) + ",";
+                    Log.d("ricecooker", String.valueOf(ricecooker_quantity_value));
+                }
+                else
+                {
+                    Toast.makeText(utensils_activity.this,"Please Enter Valid Quantity",Toast.LENGTH_SHORT).show();
+                }
             }
         });
         slicer_buy_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                slicer_quantity_value = Integer.valueOf(slicer_quantity_button.getText().toString());
-                slicer="48r";
-                String toast = String.valueOf(slicer_quantity_value)+" quantity Added";
-                Toast.makeText(utensils_activity.this,toast,Toast.LENGTH_SHORT).show();
-                list+=slicer+"-"+String.valueOf(slicer_quantity_value)+",";
-                Log.d("slicer",String.valueOf(slicer_quantity_value));
+                slicer_quantity_value = String.valueOf(slicer_quantity_button.getText().toString());
+                if (slicer_quantity_value.length()!=0) {
+                    slicer = "slicer";
+                    String toast = String.valueOf(slicer_quantity_value) + " quantity Added";
+                    Toast.makeText(utensils_activity.this, toast, Toast.LENGTH_SHORT).show();
+                    list += slicer + "-" + String.valueOf(slicer_quantity_value) + ",";
+                    Log.d("slicer", String.valueOf(slicer_quantity_value));
+                }
+                else
+                {
+                    Toast.makeText(utensils_activity.this,"Please Enter Valid Quantity",Toast.LENGTH_SHORT).show();
+                }
             }
         });
         tawa_buy_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                tawa_quantity_value = Integer.valueOf(tawa_quantity_button.getText().toString());
-                tawa="49";
-                String toast = String.valueOf(tawa_quantity_value)+" quantity Added";
-                Toast.makeText(utensils_activity.this,toast,Toast.LENGTH_SHORT).show();
-                list+=tawa+"-"+String.valueOf(tawa_quantity_value)+",";
-                Log.d("tawa",String.valueOf(tawa_quantity_value));
+                tawa_quantity_value = String.valueOf(tawa_quantity_button.getText().toString());
+                if (tawa_quantity_value.length()!=0) {
+                    tawa = "tawa";
+                    String toast = String.valueOf(tawa_quantity_value) + " quantity Added";
+                    Toast.makeText(utensils_activity.this, toast, Toast.LENGTH_SHORT).show();
+                    list += tawa + "-" + String.valueOf(tawa_quantity_value) + ",";
+                    Log.d("tawa", String.valueOf(tawa_quantity_value));
+                }
+                else
+                {
+                    Toast.makeText(utensils_activity.this,"Please Enter Valid Quantity",Toast.LENGTH_SHORT).show();
+                }
             }
         });
         inductionstove_buy_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                inductionstove_quantity_value = Integer.valueOf(inductionstove_quantity_button.getText().toString());
-                inductionstove="50";
-                String toast = String.valueOf(inductionstove_quantity_value)+" quantity Added";
-                Toast.makeText(utensils_activity.this,toast,Toast.LENGTH_SHORT).show();
-                list+=inductionstove+"-"+String.valueOf(inductionstove_quantity_value)+",";
-                Log.d("inductionstove",String.valueOf(inductionstove_quantity_value));
+                inductionstove_quantity_value = String.valueOf(inductionstove_quantity_button.getText().toString());
+                if (inductionstove_quantity_value.length()!=0)
+                {
+                    inductionstove = "inductionstove";
+                    String toast = String.valueOf(inductionstove_quantity_value) + " quantity Added";
+                    Toast.makeText(utensils_activity.this, toast, Toast.LENGTH_SHORT).show();
+                    list += inductionstove + "-" + String.valueOf(inductionstove_quantity_value) + ",";
+                    Log.d("inductionstove", String.valueOf(inductionstove_quantity_value));
+                }
+                else
+                {
+                    Toast.makeText(utensils_activity.this,"Please Enter Valid Quantity",Toast.LENGTH_SHORT).show();
+                }
             }
         });
 

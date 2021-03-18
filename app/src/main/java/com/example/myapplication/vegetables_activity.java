@@ -16,7 +16,7 @@ public class vegetables_activity extends AppCompatActivity {
     String list="";
     Button beetroot_buy_button,bitterguard_buy_button,brinjal_buy_button,cabbage_buy_button,carrot_buy_button,ladiesfinger_buy_button,onion_buy_button,potato_buy_button,raddish_buy_button,tomato_buy_button,save;
     EditText beetroot_quantity_button,bitterguard_quantity_button,brinjal_quantity_button,cabbage_quantity_button,carrot_quantity_button,ladiesfinger_quantity_button,onion_quantity_button,potato_quantity_button,raddish_quantity_button,tomato_quantity_button;
-    int beetroot_quantity_value,bitterguard_quantity_value,brinjal_quantity_value,cabbage_quantity_value,carrot_quantity_value,ladiesfinger_quantity_value,onion_quantity_value,potato_quantity_value,raddish_quantity_value,tomato_quantity_value;
+    String beetroot_quantity_value,bitterguard_quantity_value,brinjal_quantity_value,cabbage_quantity_value,carrot_quantity_value,ladiesfinger_quantity_value,onion_quantity_value,potato_quantity_value,raddish_quantity_value,tomato_quantity_value;
     String beetroot,bitterguard,brinjal,cabbage,carrot,ladiesfinger,onion,potato,raddish,tomato;
 
     @Override
@@ -48,113 +48,172 @@ public class vegetables_activity extends AppCompatActivity {
         beetroot_buy_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                beetroot_quantity_value = Integer.valueOf(beetroot_quantity_button.getText().toString());
-                beetroot = "11";
-                String toast = String.valueOf(beetroot_quantity_value)+" quantity Added";
-                Toast.makeText(vegetables_activity.this,toast,Toast.LENGTH_SHORT).show();
-                list += beetroot+"-"+String.valueOf(beetroot_quantity_value)+",";
-                Log.d("beetroot",String.valueOf(beetroot_quantity_value));
+                beetroot_quantity_value = String.valueOf(beetroot_quantity_button.getText().toString());
+                if (beetroot_quantity_value.length()!=0) {
+                    beetroot = "beetroot";
+                    String toast = String.valueOf(beetroot_quantity_value) + " quantity Added";
+                    Toast.makeText(vegetables_activity.this, toast, Toast.LENGTH_SHORT).show();
+                    list += beetroot + "-" + String.valueOf(beetroot_quantity_value) + ",";
+                    Log.d("beetroot", String.valueOf(beetroot_quantity_value));
 
-
+                }
+                else
+                {
+                    Toast.makeText(vegetables_activity.this,"Please Enter Valid Quantity",Toast.LENGTH_SHORT).show();
+                }
             }
         });
         bitterguard_buy_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                bitterguard_quantity_value = Integer.valueOf(bitterguard_quantity_button.getText().toString());
-                bitterguard="12";
-                String toast = String.valueOf(bitterguard_quantity_value)+" quantity Added";
-                Toast.makeText(vegetables_activity.this,toast,Toast.LENGTH_SHORT).show();
-                list+=bitterguard+"-"+String.valueOf(bitterguard_quantity_value)+",";
-                Log.d("bitterguard",String.valueOf(bitterguard_quantity_value));
+                bitterguard_quantity_value = String.valueOf(bitterguard_quantity_button.getText().toString());
+                if (bitterguard_quantity_value.length()!=0) {
+                    bitterguard = "bitterguard";
+                    String toast = String.valueOf(bitterguard_quantity_value) + " quantity Added";
+                    Toast.makeText(vegetables_activity.this, toast, Toast.LENGTH_SHORT).show();
+                    list += bitterguard + "-" + String.valueOf(bitterguard_quantity_value) + ",";
+                    Log.d("bitterguard", String.valueOf(bitterguard_quantity_value));
+                }
+                else
+                {
+                    Toast.makeText(vegetables_activity.this,"Please Enter Valid Quantity",Toast.LENGTH_SHORT).show();
+                }
             }
         });
         brinjal_buy_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                brinjal_quantity_value = Integer.valueOf(brinjal_quantity_button.getText().toString());
-                brinjal="13";
-                String toast = String.valueOf(brinjal_quantity_value)+" quantity Added";
-                Toast.makeText(vegetables_activity.this,toast,Toast.LENGTH_SHORT).show();
-                list+=brinjal+"-"+String.valueOf(brinjal_quantity_value)+",";
-                Log.d("brinjal",String.valueOf(brinjal_quantity_value));
+                brinjal_quantity_value = String.valueOf(brinjal_quantity_button.getText().toString());
+                if (brinjal_quantity_value.length()!=0) {
+                    brinjal = "brinjal";
+                    String toast = String.valueOf(brinjal_quantity_value) + " quantity Added";
+                    Toast.makeText(vegetables_activity.this, toast, Toast.LENGTH_SHORT).show();
+                    list += brinjal + "-" + String.valueOf(brinjal_quantity_value) + ",";
+                    Log.d("brinjal", String.valueOf(brinjal_quantity_value));
+                }
+                else
+                {
+                    Toast.makeText(vegetables_activity.this,"Please Enter Valid Quantity",Toast.LENGTH_SHORT).show();
+                }
             }
         });
         cabbage_buy_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                cabbage_quantity_value = Integer.valueOf(cabbage_quantity_button.getText().toString());
-                cabbage="14";
-                String toast = String.valueOf(cabbage_quantity_value)+" quantity Added";
-                Toast.makeText(vegetables_activity.this,toast,Toast.LENGTH_SHORT).show();
-                list+=cabbage+"-"+String.valueOf(cabbage_quantity_value)+",";
-                Log.d("cabbage",String.valueOf(cabbage_quantity_value));
+                cabbage_quantity_value = String.valueOf(cabbage_quantity_button.getText().toString());
+                if (cabbage_quantity_value.length()!=0) {
+                    cabbage = "cabbage";
+                    String toast = String.valueOf(cabbage_quantity_value) + " quantity Added";
+                    Toast.makeText(vegetables_activity.this, toast, Toast.LENGTH_SHORT).show();
+                    list += cabbage + "-" + String.valueOf(cabbage_quantity_value) + ",";
+                    Log.d("cabbage", String.valueOf(cabbage_quantity_value));
+                }
+                else
+                {
+                    Toast.makeText(vegetables_activity.this,"Please Enter Valid Quantity",Toast.LENGTH_SHORT).show();
+                }
             }
         });
         carrot_buy_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                carrot_quantity_value = Integer.valueOf(carrot_quantity_button.getText().toString());
-                carrot="15";
-                String toast = String.valueOf(carrot_quantity_value)+" quantity Added";
-                Toast.makeText(vegetables_activity.this,toast,Toast.LENGTH_SHORT).show();
-                list+=carrot+"-"+String.valueOf(carrot_quantity_value)+",";
-                Log.d("carrot",String.valueOf(carrot_quantity_value));
+                carrot_quantity_value = String.valueOf(carrot_quantity_button.getText().toString());
+                if (carrot_quantity_value.length()!=0) {
+                    carrot = "carrot";
+                    String toast = String.valueOf(carrot_quantity_value) + " quantity Added";
+                    Toast.makeText(vegetables_activity.this, toast, Toast.LENGTH_SHORT).show();
+                    list += carrot + "-" + String.valueOf(carrot_quantity_value) + ",";
+                    Log.d("carrot", String.valueOf(carrot_quantity_value));
+                }
+                else
+                {
+                    Toast.makeText(vegetables_activity.this,"Please Enter Valid Quantity",Toast.LENGTH_SHORT).show();
+                }
             }
         });
         ladiesfinger_buy_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ladiesfinger_quantity_value = Integer.valueOf(ladiesfinger_quantity_button.getText().toString());
-                ladiesfinger="16";
-                String toast = String.valueOf(ladiesfinger_quantity_value)+" quantity Added";
-                Toast.makeText(vegetables_activity.this,toast,Toast.LENGTH_SHORT).show();
-                list+=ladiesfinger+"-"+String.valueOf(ladiesfinger_quantity_value)+",";
-                Log.d("ladiesfinger",String.valueOf(ladiesfinger_quantity_value));
+                ladiesfinger_quantity_value = String.valueOf(ladiesfinger_quantity_button.getText().toString());
+                if (ladiesfinger_quantity_value.length()!=0) {
+                    ladiesfinger = "ladiesfinger";
+                    String toast = String.valueOf(ladiesfinger_quantity_value) + " quantity Added";
+                    Toast.makeText(vegetables_activity.this, toast, Toast.LENGTH_SHORT).show();
+                    list += ladiesfinger + "-" + String.valueOf(ladiesfinger_quantity_value) + ",";
+                    Log.d("ladiesfinger", String.valueOf(ladiesfinger_quantity_value));
+                }
+                else
+                {
+                    Toast.makeText(vegetables_activity.this,"Please Enter Valid Quantity",Toast.LENGTH_SHORT).show();
+                }
             }
         });
         onion_buy_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                onion_quantity_value = Integer.valueOf(onion_quantity_button.getText().toString());
-                onion="17";
-                String toast = String.valueOf(onion_quantity_value)+" quantity Added";
-                Toast.makeText(vegetables_activity.this,toast,Toast.LENGTH_SHORT).show();
-                list+=onion+"-"+String.valueOf(onion_quantity_value)+",";
-                Log.d("onion",String.valueOf(onion_quantity_value));
+                onion_quantity_value = String.valueOf(onion_quantity_button.getText().toString());
+                if (onion_quantity_value.length()!=0) {
+                    onion = "onion";
+                    String toast = String.valueOf(onion_quantity_value) + " quantity Added";
+                    Toast.makeText(vegetables_activity.this, toast, Toast.LENGTH_SHORT).show();
+                    list += onion + "-" + String.valueOf(onion_quantity_value) + ",";
+                    Log.d("onion", String.valueOf(onion_quantity_value));
+                }
+                else
+                {
+                    Toast.makeText(vegetables_activity.this,"Please Enter Valid Quantity",Toast.LENGTH_SHORT).show();
+                }
             }
         });
         potato_buy_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                potato_quantity_value = Integer.valueOf(potato_quantity_button.getText().toString());
-                potato="18";
-                String toast = String.valueOf(potato_quantity_value)+" quantity Added";
-                Toast.makeText(vegetables_activity.this,toast,Toast.LENGTH_SHORT).show();
-                list+=potato+"-"+String.valueOf(potato_quantity_value)+",";
-                Log.d("potato",String.valueOf(potato_quantity_value));
+                potato_quantity_value = String.valueOf(potato_quantity_button.getText().toString());
+                if (potato_quantity_value.length()!=0) {
+                    potato = "potato";
+                    String toast = String.valueOf(potato_quantity_value) + " quantity Added";
+                    Toast.makeText(vegetables_activity.this, toast, Toast.LENGTH_SHORT).show();
+                    list += potato + "-" + String.valueOf(potato_quantity_value) + ",";
+                    Log.d("potato", String.valueOf(potato_quantity_value));
+                }
+                else
+                {
+                    Toast.makeText(vegetables_activity.this,"Please Enter Valid Quantity",Toast.LENGTH_SHORT).show();
+                }
             }
         });
         raddish_buy_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                raddish_quantity_value = Integer.valueOf(raddish_quantity_button.getText().toString());
-                raddish="19";
-                String toast = String.valueOf(raddish_quantity_value)+" quantity Added";
-                Toast.makeText(vegetables_activity.this,toast,Toast.LENGTH_SHORT).show();
-                list+=raddish+"-"+String.valueOf(raddish_quantity_value)+",";
-                Log.d("raddish",String.valueOf(raddish_quantity_value));
+                raddish_quantity_value = String.valueOf(raddish_quantity_button.getText().toString());
+                if (raddish_quantity_value.length()!=0) {
+                    raddish = "raddish";
+                    String toast = String.valueOf(raddish_quantity_value) + " quantity Added";
+                    Toast.makeText(vegetables_activity.this, toast, Toast.LENGTH_SHORT).show();
+                    list += raddish + "-" + String.valueOf(raddish_quantity_value) + ",";
+                    Log.d("raddish", String.valueOf(raddish_quantity_value));
+                }
+                else
+                {
+                    Toast.makeText(vegetables_activity.this,"Please Enter Valid Quantity",Toast.LENGTH_SHORT).show();
+                }
             }
         });
         tomato_buy_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                tomato_quantity_value = Integer.valueOf(tomato_quantity_button.getText().toString());
-                tomato="20";
-                String toast = String.valueOf(tomato_quantity_value)+" quantity Added";
-                Toast.makeText(vegetables_activity.this,toast,Toast.LENGTH_SHORT).show();
-                list+=tomato+"-"+String.valueOf(tomato_quantity_value)+",";
-                Log.d("tomato",String.valueOf(tomato_quantity_value));
+                tomato_quantity_value = String.valueOf(tomato_quantity_button.getText().toString());
+                if (tomato_quantity_value.length()!=0) {
+                    tomato = "tomato";
+                    String toast = String.valueOf(tomato_quantity_value) + " quantity Added";
+                    Toast.makeText(vegetables_activity.this, toast, Toast.LENGTH_SHORT).show();
+                    list += tomato + "-" + String.valueOf(tomato_quantity_value) + ",";
+                    Log.d("tomato", String.valueOf(tomato_quantity_value));
+                }
+                else
+                {
+                    Toast.makeText(vegetables_activity.this,"Please Enter Valid Quantity",Toast.LENGTH_SHORT).show();
+                }
             }
         });
 

@@ -83,16 +83,10 @@ public class final_activity extends Activity
         //Log.d("keysetcheck",keyset);
         Log.d("mapcheck",map.toString());
         keyset=map.keySet().toString().replaceAll(",","-").replaceAll(" ","");
-        int len = keyset.length();
-        if(len<1){
-            ;
-        }
-        else{
-            keyset = keyset.substring(3,len-1);
-        }
         Log.d("keysetcheck2",keyset);
         Button sendButton = (Button)findViewById(R.id.send);
         Button closeButton = (Button)findViewById(R.id.close);
+        TextView checkout = (TextView)findViewById(R.id.checkout);
         try{
             findBT();
             openBT();}
@@ -105,9 +99,11 @@ public class final_activity extends Activity
         {
             public void onClick(View v)
             {
+                checkout.setText("Your order has been sent to the Robot");
                 try
                 {
                     sendData();
+
                 }
                 catch (IOException ex) {
                     Log.d("revanth","errormsgioexcep");
@@ -123,6 +119,7 @@ public class final_activity extends Activity
                 try
                 {
                     closeBT();
+                    finish();
                 }
                 catch (IOException ex) { }
             }
@@ -233,6 +230,12 @@ public class final_activity extends Activity
 
     void sendData() throws IOException
     {
+        int len = keyset.length();
+        Log.d("checkout",keyset);
+        Log.d("checkoutlength",String.valueOf(len));
+        if(len!=3){
+            keyset = keyset.substring(3,len-1);
+        }
         keyset+='@';
         mmOutputStream.write(keyset.getBytes());
         Toast.makeText(getApplicationContext(),"data sent successfully",Toast.LENGTH_SHORT).show();
